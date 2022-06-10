@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_3pMKILhoEeuvU8abVBrHDQ" name="Project Activity Diagram Table Reservation">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_3qS9YLhoEeuvU8abVBrHDQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_3pnA4LhoEeuvU8abVBrHDQ" name="Table Reservation" node="_K2M8ILhqEeuvU8abVBrHDQ _LoG6MLhqEeuvU8abVBrHDQ _Xlf5QLhqEeuvU8abVBrHDQ _d8iT0LhqEeuvU8abVBrHDQ _r5vOgLhqEeuvU8abVBrHDQ _yHE6gLhqEeuvU8abVBrHDQ _1NOMELhqEeuvU8abVBrHDQ _5VuSgLhqEeuvU8abVBrHDQ _-mwHQLhqEeuvU8abVBrHDQ _GyKCcLhrEeuvU8abVBrHDQ _aIou8LhrEeuvU8abVBrHDQ" group="_-JeK0LhpEeuvU8abVBrHDQ _-8tloLhpEeuvU8abVBrHDQ">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_d_hg8LhrEeuvU8abVBrHDQ" inPartition="_-8tloLhpEeuvU8abVBrHDQ" target="_LoG6MLhqEeuvU8abVBrHDQ" source="_K2M8ILhqEeuvU8abVBrHDQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_fV9IYLhrEeuvU8abVBrHDQ" target="_Xlf5QLhqEeuvU8abVBrHDQ" source="_LoG6MLhqEeuvU8abVBrHDQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_f-0fMLhrEeuvU8abVBrHDQ" inPartition="_-JeK0LhpEeuvU8abVBrHDQ" target="_d8iT0LhqEeuvU8abVBrHDQ" source="_Xlf5QLhqEeuvU8abVBrHDQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_gsxxYLhrEeuvU8abVBrHDQ" inPartition="_-JeK0LhpEeuvU8abVBrHDQ" target="_r5vOgLhqEeuvU8abVBrHDQ" source="_d8iT0LhqEeuvU8abVBrHDQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_hqAOoLhrEeuvU8abVBrHDQ" target="_yHE6gLhqEeuvU8abVBrHDQ" source="_r5vOgLhqEeuvU8abVBrHDQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_idVwELhrEeuvU8abVBrHDQ" inPartition="_-8tloLhpEeuvU8abVBrHDQ" target="_1NOMELhqEeuvU8abVBrHDQ" source="_yHE6gLhqEeuvU8abVBrHDQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_jB8R8LhrEeuvU8abVBrHDQ" target="_5VuSgLhqEeuvU8abVBrHDQ" source="_1NOMELhqEeuvU8abVBrHDQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ktM54LhrEeuvU8abVBrHDQ" inPartition="_-JeK0LhpEeuvU8abVBrHDQ" target="_-mwHQLhqEeuvU8abVBrHDQ" source="_5VuSgLhqEeuvU8abVBrHDQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_oUbfQLhrEeuvU8abVBrHDQ" inPartition="_-JeK0LhpEeuvU8abVBrHDQ" target="_aIou8LhrEeuvU8abVBrHDQ" source="_-mwHQLhqEeuvU8abVBrHDQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_qsOdELhrEeuvU8abVBrHDQ" inPartition="_-JeK0LhpEeuvU8abVBrHDQ" target="_aIou8LhrEeuvU8abVBrHDQ" source="_d8iT0LhqEeuvU8abVBrHDQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_tXAoULhrEeuvU8abVBrHDQ" target="_GyKCcLhrEeuvU8abVBrHDQ" source="_-mwHQLhqEeuvU8abVBrHDQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_uJz-QLhrEeuvU8abVBrHDQ" inPartition="_-8tloLhpEeuvU8abVBrHDQ" target="_1NOMELhqEeuvU8abVBrHDQ" source="_GyKCcLhrEeuvU8abVBrHDQ"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_-JeK0LhpEeuvU8abVBrHDQ" name="Manager" node="_Xlf5QLhqEeuvU8abVBrHDQ _d8iT0LhqEeuvU8abVBrHDQ _r5vOgLhqEeuvU8abVBrHDQ _5VuSgLhqEeuvU8abVBrHDQ _-mwHQLhqEeuvU8abVBrHDQ _aIou8LhrEeuvU8abVBrHDQ" edge="_f-0fMLhrEeuvU8abVBrHDQ _gsxxYLhrEeuvU8abVBrHDQ _ktM54LhrEeuvU8abVBrHDQ _oUbfQLhrEeuvU8abVBrHDQ _qsOdELhrEeuvU8abVBrHDQ"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_-8tloLhpEeuvU8abVBrHDQ" name="Customer" node="_K2M8ILhqEeuvU8abVBrHDQ _LoG6MLhqEeuvU8abVBrHDQ _yHE6gLhqEeuvU8abVBrHDQ _1NOMELhqEeuvU8abVBrHDQ _GyKCcLhrEeuvU8abVBrHDQ" edge="_d_hg8LhrEeuvU8abVBrHDQ _idVwELhrEeuvU8abVBrHDQ _uJz-QLhrEeuvU8abVBrHDQ"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_K2M8ILhqEeuvU8abVBrHDQ" name="InitialNode3" outgoing="_d_hg8LhrEeuvU8abVBrHDQ" inPartition="_-8tloLhpEeuvU8abVBrHDQ"/>
+    <node xmi:type="uml:AddVariableValueAction" xmi:id="_LoG6MLhqEeuvU8abVBrHDQ" name="Call for Reservation" incoming="_d_hg8LhrEeuvU8abVBrHDQ" outgoing="_fV9IYLhrEeuvU8abVBrHDQ" inPartition="_-8tloLhpEeuvU8abVBrHDQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Xlf5QLhqEeuvU8abVBrHDQ" name="Check available table" incoming="_fV9IYLhrEeuvU8abVBrHDQ" outgoing="_f-0fMLhrEeuvU8abVBrHDQ" inPartition="_-JeK0LhpEeuvU8abVBrHDQ"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_d8iT0LhqEeuvU8abVBrHDQ" name="Available" incoming="_f-0fMLhrEeuvU8abVBrHDQ" outgoing="_gsxxYLhrEeuvU8abVBrHDQ _qsOdELhrEeuvU8abVBrHDQ" inPartition="_-JeK0LhpEeuvU8abVBrHDQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_r5vOgLhqEeuvU8abVBrHDQ" name="Ask for food order" incoming="_gsxxYLhrEeuvU8abVBrHDQ" outgoing="_hqAOoLhrEeuvU8abVBrHDQ" inPartition="_-JeK0LhpEeuvU8abVBrHDQ"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_yHE6gLhqEeuvU8abVBrHDQ" name="Yes" incoming="_hqAOoLhrEeuvU8abVBrHDQ" outgoing="_idVwELhrEeuvU8abVBrHDQ" inPartition="_-8tloLhpEeuvU8abVBrHDQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_1NOMELhqEeuvU8abVBrHDQ" name="Give food order" incoming="_idVwELhrEeuvU8abVBrHDQ _uJz-QLhrEeuvU8abVBrHDQ" outgoing="_jB8R8LhrEeuvU8abVBrHDQ" inPartition="_-8tloLhpEeuvU8abVBrHDQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_5VuSgLhqEeuvU8abVBrHDQ" name="Check available food" incoming="_jB8R8LhrEeuvU8abVBrHDQ" outgoing="_ktM54LhrEeuvU8abVBrHDQ" inPartition="_-JeK0LhpEeuvU8abVBrHDQ"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_-mwHQLhqEeuvU8abVBrHDQ" name="Available" incoming="_ktM54LhrEeuvU8abVBrHDQ" outgoing="_oUbfQLhrEeuvU8abVBrHDQ _tXAoULhrEeuvU8abVBrHDQ" inPartition="_-JeK0LhpEeuvU8abVBrHDQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_GyKCcLhrEeuvU8abVBrHDQ" name="Provide Alternative food" incoming="_tXAoULhrEeuvU8abVBrHDQ" outgoing="_uJz-QLhrEeuvU8abVBrHDQ" inPartition="_-8tloLhpEeuvU8abVBrHDQ"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_aIou8LhrEeuvU8abVBrHDQ" name="FlowFinalNode13" incoming="_oUbfQLhrEeuvU8abVBrHDQ _qsOdELhrEeuvU8abVBrHDQ" inPartition="_-JeK0LhpEeuvU8abVBrHDQ"/>
+  </packagedElement>
+</uml:Model>

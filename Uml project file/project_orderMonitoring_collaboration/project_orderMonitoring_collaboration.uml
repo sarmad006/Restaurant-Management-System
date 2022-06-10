@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_H6tvwLfYEeudMIodE3DF5Q" name="project_orderMonitoring_collaboration">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_H8kJ4LfYEeudMIodE3DF5Q">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_H7LCwLfYEeudMIodE3DF5Q" name="OrderMonitoring">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_NpWGgLfYEeudMIodE3DF5Q" name="Customer" coveredBy="_Vk_HYLfYEeudMIodE3DF5Q"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_PCiuELfYEeudMIodE3DF5Q" name="System" coveredBy="_Vk_ucLfYEeudMIodE3DF5Q _Z9IzYLfYEeudMIodE3DF5Q _ikdOgLfYEeudMIodE3DF5Q _wgBxgLfYEeudMIodE3DF5Q"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_QVAbgLfYEeudMIodE3DF5Q" name="Manager" coveredBy="_ikcncLfYEeudMIodE3DF5Q"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_RZcUALfYEeudMIodE3DF5Q" name="Waiter" coveredBy="_Z9IMULfYEeudMIodE3DF5Q _2zO08LfYEeudMIodE3DF5Q _2zPcALfYEeudMIodE3DF5Q"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_SsOKgLfYEeudMIodE3DF5Q" name="Rider" coveredBy="_wgAjYLfYEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Vk_HYLfYEeudMIodE3DF5Q" name="Message6SendEvent" covered="_NpWGgLfYEeudMIodE3DF5Q" message="_Vk95QLfYEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Vk_ucLfYEeudMIodE3DF5Q" name="Message6ReceiveEvent" covered="_PCiuELfYEeudMIodE3DF5Q" message="_Vk95QLfYEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Z9IMULfYEeudMIodE3DF5Q" name="Message9SendEvent" covered="_RZcUALfYEeudMIodE3DF5Q" message="_Z9G-MLfYEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Z9IzYLfYEeudMIodE3DF5Q" name="Message9ReceiveEvent" covered="_PCiuELfYEeudMIodE3DF5Q" message="_Z9G-MLfYEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ikcncLfYEeudMIodE3DF5Q" name="Message12SendEvent" covered="_QVAbgLfYEeudMIodE3DF5Q" message="_ikayQLfYEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ikdOgLfYEeudMIodE3DF5Q" name="Message12ReceiveEvent" covered="_PCiuELfYEeudMIodE3DF5Q" message="_ikayQLfYEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_wgAjYLfYEeudMIodE3DF5Q" name="Message15SendEvent" covered="_SsOKgLfYEeudMIodE3DF5Q" message="_wf9gELfYEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_wgBxgLfYEeudMIodE3DF5Q" name="Message15ReceiveEvent" covered="_PCiuELfYEeudMIodE3DF5Q" message="_wf9gELfYEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2zO08LfYEeudMIodE3DF5Q" name="Message18SendEvent" covered="_RZcUALfYEeudMIodE3DF5Q" message="_2zON4LfYEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2zPcALfYEeudMIodE3DF5Q" name="Message18ReceiveEvent" covered="_RZcUALfYEeudMIodE3DF5Q" message="_2zON4LfYEeudMIodE3DF5Q"/>
+    <message xmi:type="uml:Message" xmi:id="_Vk95QLfYEeudMIodE3DF5Q" name="1:Give_order()" messageSort="asynchCall" receiveEvent="_Vk_ucLfYEeudMIodE3DF5Q" sendEvent="_Vk_HYLfYEeudMIodE3DF5Q"/>
+    <message xmi:type="uml:Message" xmi:id="_Z9G-MLfYEeudMIodE3DF5Q" name="2:Add_order()" messageSort="asynchCall" receiveEvent="_Z9IzYLfYEeudMIodE3DF5Q" sendEvent="_Z9IMULfYEeudMIodE3DF5Q"/>
+    <message xmi:type="uml:Message" xmi:id="_ikayQLfYEeudMIodE3DF5Q" name="3:View_allOrders()" messageSort="asynchCall" receiveEvent="_ikdOgLfYEeudMIodE3DF5Q" sendEvent="_ikcncLfYEeudMIodE3DF5Q"/>
+    <message xmi:type="uml:Message" xmi:id="_wf9gELfYEeudMIodE3DF5Q" name="5:View_takeaway_orders()" messageSort="asynchCall" receiveEvent="_wgBxgLfYEeudMIodE3DF5Q" sendEvent="_wgAjYLfYEeudMIodE3DF5Q"/>
+    <message xmi:type="uml:Message" xmi:id="_2zON4LfYEeudMIodE3DF5Q" name="4:View_dine-in_orders()" messageSort="asynchCall" receiveEvent="_2zPcALfYEeudMIodE3DF5Q" sendEvent="_2zO08LfYEeudMIodE3DF5Q"/>
+  </packagedElement>
+</uml:Model>

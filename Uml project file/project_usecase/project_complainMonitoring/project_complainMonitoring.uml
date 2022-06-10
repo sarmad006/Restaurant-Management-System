@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_im2X0LevEeudMIodE3DF5Q" name="project_complainMonitoring">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_izQcILevEeudMIodE3DF5Q">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_UFE7ALewEeudMIodE3DF5Q" name="complain_monitoring">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_8HxicLexEeudMIodE3DF5Q" name="submit complain">
+      <include xmi:type="uml:Include" xmi:id="_cqIaYLeyEeudMIodE3DF5Q" addition="_CeZtULeyEeudMIodE3DF5Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_-w0BQLexEeudMIodE3DF5Q" name="view complain">
+      <include xmi:type="uml:Include" xmi:id="_fNeg4LeyEeudMIodE3DF5Q" addition="_WgDdwLeyEeudMIodE3DF5Q"/>
+      <include xmi:type="uml:Include" xmi:id="_fyQB4LeyEeudMIodE3DF5Q" addition="_VcP3YLeyEeudMIodE3DF5Q"/>
+      <include xmi:type="uml:Include" xmi:id="_gYsW0LeyEeudMIodE3DF5Q" addition="_Xo-0sLeyEeudMIodE3DF5Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_CeZtULeyEeudMIodE3DF5Q" name="give description"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_VcP3YLeyEeudMIodE3DF5Q" name="view title"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_WgDdwLeyEeudMIodE3DF5Q" name="view author"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Xo-0sLeyEeudMIodE3DF5Q" name="view description"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_p-OtsLeyEeudMIodE3DF5Q" name="launch complain">
+      <include xmi:type="uml:Include" xmi:id="_RJyuQLezEeudMIodE3DF5Q" addition="_KVAAsLezEeudMIodE3DF5Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_KVAAsLezEeudMIodE3DF5Q" name="give feedback"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_V4k48LewEeudMIodE3DF5Q" name="Customer"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_XprqMLewEeudMIodE3DF5Q" name="Manager"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Zo6sILeyEeudMIodE3DF5Q" memberEnd="_ZpLx4LeyEeudMIodE3DF5Q _ZpZ0ULeyEeudMIodE3DF5Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZpJ8sLeyEeudMIodE3DF5Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZpKjwLeyEeudMIodE3DF5Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ZpLx4LeyEeudMIodE3DF5Q" name="submit complain" type="_8HxicLexEeudMIodE3DF5Q" association="_Zo6sILeyEeudMIodE3DF5Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ZpZ0ULeyEeudMIodE3DF5Q" name="user" type="_V4k48LewEeudMIodE3DF5Q" association="_Zo6sILeyEeudMIodE3DF5Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_eLLWYLeyEeudMIodE3DF5Q" memberEnd="_eLMkgLeyEeudMIodE3DF5Q _eLMkgbeyEeudMIodE3DF5Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eLL9cLeyEeudMIodE3DF5Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eLL9cbeyEeudMIodE3DF5Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_eLMkgLeyEeudMIodE3DF5Q" name="view complain" type="_-w0BQLexEeudMIodE3DF5Q" association="_eLLWYLeyEeudMIodE3DF5Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_eLMkgbeyEeudMIodE3DF5Q" name="manager" type="_XprqMLewEeudMIodE3DF5Q" association="_eLLWYLeyEeudMIodE3DF5Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_s5QUYLeyEeudMIodE3DF5Q" memberEnd="_s5Q7cbeyEeudMIodE3DF5Q _s5Q7creyEeudMIodE3DF5Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s5QUYbeyEeudMIodE3DF5Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_s5Q7cLeyEeudMIodE3DF5Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_s5Q7cbeyEeudMIodE3DF5Q" name="launch complain" type="_p-OtsLeyEeudMIodE3DF5Q" association="_s5QUYLeyEeudMIodE3DF5Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_s5Q7creyEeudMIodE3DF5Q" name="manager" type="_XprqMLewEeudMIodE3DF5Q" association="_s5QUYLeyEeudMIodE3DF5Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Mk9RILezEeudMIodE3DF5Q" memberEnd="_Mk-fQbezEeudMIodE3DF5Q _Mk_GULezEeudMIodE3DF5Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Mk94MLezEeudMIodE3DF5Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Mk-fQLezEeudMIodE3DF5Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Mk-fQbezEeudMIodE3DF5Q" name="give feedback" type="_KVAAsLezEeudMIodE3DF5Q" association="_Mk9RILezEeudMIodE3DF5Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Mk_GULezEeudMIodE3DF5Q" name="user" type="_V4k48LewEeudMIodE3DF5Q" association="_Mk9RILezEeudMIodE3DF5Q"/>
+  </packagedElement>
+</uml:Model>

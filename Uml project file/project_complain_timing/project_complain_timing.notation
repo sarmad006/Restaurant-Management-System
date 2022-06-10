@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_yBUagLibEeulNrdjL1nptw" type="PapyrusUMLTimingDiagram" name="Timing Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_zdsR4LibEeulNrdjL1nptw" type="Interaction_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_zds48LibEeulNrdjL1nptw" type="Interaction_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_zds48bibEeulNrdjL1nptw" type="Interaction_SubfragmentCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_1xuKALibEeulNrdjL1nptw" type="Lifeline_FullShape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_1xuKAribEeulNrdjL1nptw" type="Lifeline_FullNameLabel"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_1xuKA7ibEeulNrdjL1nptw" type="Lifeline_FullStateDefinitionCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_AdJx8LicEeulNrdjL1nptw" type="Node_StateDefinitionShape">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AdRtwbicEeulNrdjL1nptw" source="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionView">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AdRtwricEeulNrdjL1nptw" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewID" value="_AdRtwLicEeulNrdjL1nptw"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AdRtxbicEeulNrdjL1nptw" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewName" value="giving_feedback"/>
+            </eAnnotations>
+            <children xmi:type="notation:DecorationNode" xmi:id="_AdJx8ricEeulNrdjL1nptw" type="Node_StateDefinitionNameLabel">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_AdJx87icEeulNrdjL1nptw"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AdJx8bicEeulNrdjL1nptw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_JpJAYLicEeulNrdjL1nptw" type="Node_StateDefinitionShape">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JpQ8MbicEeulNrdjL1nptw" source="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionView">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JpQ8MricEeulNrdjL1nptw" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewID" value="_JpQ8MLicEeulNrdjL1nptw"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JpRjQLicEeulNrdjL1nptw" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewName" value="launching_complain"/>
+            </eAnnotations>
+            <children xmi:type="notation:DecorationNode" xmi:id="_JpJncLicEeulNrdjL1nptw" type="Node_StateDefinitionNameLabel">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_JpJncbicEeulNrdjL1nptw"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JpJAYbicEeulNrdjL1nptw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_Qw6UULicEeulNrdjL1nptw" type="Node_StateDefinitionShape">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QxDeQbicEeulNrdjL1nptw" source="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionView">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QxDeQricEeulNrdjL1nptw" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewID" value="_QxDeQLicEeulNrdjL1nptw"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QxDeRLicEeulNrdjL1nptw" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewName" value="viewing_complain"/>
+            </eAnnotations>
+            <children xmi:type="notation:DecorationNode" xmi:id="_Qw6UUricEeulNrdjL1nptw" type="Node_StateDefinitionNameLabel">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_Qw67YLicEeulNrdjL1nptw"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qw6UUbicEeulNrdjL1nptw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_TiOlYLicEeulNrdjL1nptw" type="Node_StateDefinitionShape">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TiY9cbicEeulNrdjL1nptw" source="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionView">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TiY9cricEeulNrdjL1nptw" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewID" value="_TiY9cLicEeulNrdjL1nptw"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TiZkgLicEeulNrdjL1nptw" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewName" value="idle"/>
+            </eAnnotations>
+            <children xmi:type="notation:DecorationNode" xmi:id="_TiPMcLicEeulNrdjL1nptw" type="Node_StateDefinitionNameLabel">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_TiPMcbicEeulNrdjL1nptw"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TiOlYbicEeulNrdjL1nptw"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_1xuKBLibEeulNrdjL1nptw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_1xuKBbibEeulNrdjL1nptw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1xuKBribEeulNrdjL1nptw"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_1xuKB7ibEeulNrdjL1nptw" type="Lifeline_FullSubfragmentCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_AdSU0ricEeulNrdjL1nptw" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_AdSU1LicEeulNrdjL1nptw" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_AdSU1bicEeulNrdjL1nptw" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="project_complain_timing.uml#_AdRtxricEeulNrdjL1nptw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AdSU07icEeulNrdjL1nptw"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_WWzl0LicEeulNrdjL1nptw" type="OccurrenceSpecification_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_WWzl1LicEeulNrdjL1nptw" type="OccurrenceSpecification_NameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_WWzl1bicEeulNrdjL1nptw" y="18"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_WWzl1ricEeulNrdjL1nptw" type="OccurrenceSpecification_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_WWzl17icEeulNrdjL1nptw" y="15"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_WWzl0bicEeulNrdjL1nptw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_WWzl0ricEeulNrdjL1nptw"/>
+            <element xmi:type="uml:OccurrenceSpecification" href="project_complain_timing.uml#_WWy-wLicEeulNrdjL1nptw"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_lpHSQLicEeulNrdjL1nptw" x="231" y="184"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_WWzl2bicEeulNrdjL1nptw" type="Node_StateInvariantTransitionShape">
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WWzl2ricEeulNrdjL1nptw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_WW0M4ricEeulNrdjL1nptw" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_WW0M5LicEeulNrdjL1nptw" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_WW0M5bicEeulNrdjL1nptw" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="project_complain_timing.uml#_WWzl27icEeulNrdjL1nptw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WW0M47icEeulNrdjL1nptw"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_p_D-0LicEeulNrdjL1nptw" type="OccurrenceSpecification_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_p_El4LicEeulNrdjL1nptw" type="OccurrenceSpecification_NameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_p_El4bicEeulNrdjL1nptw" y="18"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_p_El4ricEeulNrdjL1nptw" type="OccurrenceSpecification_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_p_El47icEeulNrdjL1nptw" y="15"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_p_D-0bicEeulNrdjL1nptw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_p_D-0ricEeulNrdjL1nptw"/>
+            <element xmi:type="uml:OccurrenceSpecification" href="project_complain_timing.uml#_p_DXwLicEeulNrdjL1nptw"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_p_El5LicEeulNrdjL1nptw" x="318" y="130"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_p_El5bicEeulNrdjL1nptw" type="Node_StateInvariantTransitionShape">
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p_El5ricEeulNrdjL1nptw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_p_FM8ricEeulNrdjL1nptw" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_p_FM9LicEeulNrdjL1nptw" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_p_FM9bicEeulNrdjL1nptw" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="project_complain_timing.uml#_p_El57icEeulNrdjL1nptw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p_FM87icEeulNrdjL1nptw"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vGcvYLicEeulNrdjL1nptw" type="OccurrenceSpecification_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_vGcvZLicEeulNrdjL1nptw" type="OccurrenceSpecification_NameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vGdWcLicEeulNrdjL1nptw" y="18"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_vGdWcbicEeulNrdjL1nptw" type="OccurrenceSpecification_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vGdWcricEeulNrdjL1nptw" y="15"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_vGcvYbicEeulNrdjL1nptw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_vGcvYricEeulNrdjL1nptw"/>
+            <element xmi:type="uml:OccurrenceSpecification" href="project_complain_timing.uml#_vGcIULicEeulNrdjL1nptw"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_vGdWc7icEeulNrdjL1nptw" x="404" y="73"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_vGdWdLicEeulNrdjL1nptw" type="Node_StateInvariantTransitionShape">
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vGdWdbicEeulNrdjL1nptw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_vGd9gLicEeulNrdjL1nptw" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_vGd9gricEeulNrdjL1nptw" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vGd9g7icEeulNrdjL1nptw" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="project_complain_timing.uml#_vGdWdricEeulNrdjL1nptw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vGd9gbicEeulNrdjL1nptw"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vlL50LicEeulNrdjL1nptw" type="OccurrenceSpecification_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_vlL51LicEeulNrdjL1nptw" type="OccurrenceSpecification_NameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vlL51bicEeulNrdjL1nptw" y="18"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_vlL51ricEeulNrdjL1nptw" type="OccurrenceSpecification_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vlL517icEeulNrdjL1nptw" y="15"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_vlL50bicEeulNrdjL1nptw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_vlL50ricEeulNrdjL1nptw"/>
+            <element xmi:type="uml:OccurrenceSpecification" href="project_complain_timing.uml#_vlLSwLicEeulNrdjL1nptw"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_vlL52LicEeulNrdjL1nptw" x="530" y="19"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_vlL52bicEeulNrdjL1nptw" type="Node_StateInvariantTransitionShape">
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vlL52ricEeulNrdjL1nptw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_vlMg4ricEeulNrdjL1nptw" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_vlMg5LicEeulNrdjL1nptw" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vlMg5bicEeulNrdjL1nptw" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="project_complain_timing.uml#_vlL527icEeulNrdjL1nptw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vlMg47icEeulNrdjL1nptw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_9FQMkLicEeulNrdjL1nptw" type="DurationConstraint_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_9FQzoLicEeulNrdjL1nptw" type="DurationConstraint_BodyLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_9FQzobicEeulNrdjL1nptw" x="52" y="22"/>
+            </children>
+            <element xmi:type="uml:DurationConstraint" href="project_complain_timing.uml#_9FO-cLicEeulNrdjL1nptw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9FQMkbicEeulNrdjL1nptw" x="406" y="29" width="127"/>
+          </children>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1xuKCLibEeulNrdjL1nptw"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_1xuKCbibEeulNrdjL1nptw" visible="false" type="Lifeline_FullTimeRulerCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_1x4iELibEeulNrdjL1nptw" type="Node_FreeTimeRulerShape">
+            <children xmi:type="notation:BasicCompartment" xmi:id="_1x4iEribEeulNrdjL1nptw" type="Node_FreeTimeRulerCompartment">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1x4iE7ibEeulNrdjL1nptw"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1x4iEbibEeulNrdjL1nptw"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_1xuKCribEeulNrdjL1nptw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_1xuKC7ibEeulNrdjL1nptw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1xuKDLibEeulNrdjL1nptw"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="project_complain_timing.uml#_1xsU0LibEeulNrdjL1nptw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1xuKAbibEeulNrdjL1nptw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_22WPwLibEeulNrdjL1nptw" type="Lifeline_FullShape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_22W20LibEeulNrdjL1nptw" type="Lifeline_FullNameLabel"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_22W20bibEeulNrdjL1nptw" type="Lifeline_FullStateDefinitionCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_6fm1cLibEeulNrdjL1nptw" type="Node_StateDefinitionShape">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6fwmcbibEeulNrdjL1nptw" source="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionView">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6fwmcribEeulNrdjL1nptw" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewID" value="_6fwmcLibEeulNrdjL1nptw"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6fxNgbibEeulNrdjL1nptw" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewName" value="viewing_feedback"/>
+            </eAnnotations>
+            <children xmi:type="notation:DecorationNode" xmi:id="_6fm1cribEeulNrdjL1nptw" type="Node_StateDefinitionNameLabel">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_6fm1c7ibEeulNrdjL1nptw"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6fm1cbibEeulNrdjL1nptw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_7yn8gLibEeulNrdjL1nptw" type="Node_StateDefinitionShape">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7yxtgbibEeulNrdjL1nptw" source="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionView">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7yxtgribEeulNrdjL1nptw" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewID" value="_7yxtgLibEeulNrdjL1nptw"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7yxthLibEeulNrdjL1nptw" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewName" value="complaining"/>
+            </eAnnotations>
+            <children xmi:type="notation:DecorationNode" xmi:id="_7yn8gribEeulNrdjL1nptw" type="Node_StateDefinitionNameLabel">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_7yojkLibEeulNrdjL1nptw"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7yn8gbibEeulNrdjL1nptw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_9SvEYLibEeulNrdjL1nptw" type="Node_StateDefinitionShape">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9S3AMbibEeulNrdjL1nptw" source="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionView">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9S3AMribEeulNrdjL1nptw" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewID" value="_9S3AMLibEeulNrdjL1nptw"/>
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9S3ANLibEeulNrdjL1nptw" key="org.eclipse.papyrus.uml.diagram.timing.StateDefinitionViewName" value="idle"/>
+            </eAnnotations>
+            <children xmi:type="notation:DecorationNode" xmi:id="_9SvEYribEeulNrdjL1nptw" type="Node_StateDefinitionNameLabel">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_9SvEY7ibEeulNrdjL1nptw"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9SvEYbibEeulNrdjL1nptw"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_22W20ribEeulNrdjL1nptw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_22W207ibEeulNrdjL1nptw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_22W21LibEeulNrdjL1nptw"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_22W21bibEeulNrdjL1nptw" type="Lifeline_FullSubfragmentCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_6fxNh7ibEeulNrdjL1nptw" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_6fxNibibEeulNrdjL1nptw" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_6fx0kLibEeulNrdjL1nptw" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="project_complain_timing.uml#_6fxNgribEeulNrdjL1nptw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6fxNiLibEeulNrdjL1nptw"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_U0I5MLicEeulNrdjL1nptw" type="OccurrenceSpecification_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_U0I5NLicEeulNrdjL1nptw" type="OccurrenceSpecification_NameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_U0I5NbicEeulNrdjL1nptw" y="18"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_U0I5NricEeulNrdjL1nptw" type="OccurrenceSpecification_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_U0JgQLicEeulNrdjL1nptw" y="15"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_U0I5MbicEeulNrdjL1nptw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_U0I5MricEeulNrdjL1nptw"/>
+            <element xmi:type="uml:OccurrenceSpecification" href="project_complain_timing.uml#_U0ISILicEeulNrdjL1nptw"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_U0JgQbicEeulNrdjL1nptw" x="65" y="128"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_U0JgQricEeulNrdjL1nptw" type="Node_StateInvariantTransitionShape">
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U0JgQ7icEeulNrdjL1nptw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_U0KHULicEeulNrdjL1nptw" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_U0KHUricEeulNrdjL1nptw" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_U0KHU7icEeulNrdjL1nptw" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="project_complain_timing.uml#_U0JgRLicEeulNrdjL1nptw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U0KHUbicEeulNrdjL1nptw"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_bm6_ILidEeulNrdjL1nptw" type="OccurrenceSpecification_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_bm6_JLidEeulNrdjL1nptw" type="OccurrenceSpecification_NameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_bm6_JbidEeulNrdjL1nptw" y="18"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_bm6_JridEeulNrdjL1nptw" type="OccurrenceSpecification_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_bm6_J7idEeulNrdjL1nptw" y="15"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_bm6_IbidEeulNrdjL1nptw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_bm6_IridEeulNrdjL1nptw"/>
+            <element xmi:type="uml:OccurrenceSpecification" href="project_complain_timing.uml#_bm6YELidEeulNrdjL1nptw"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_bm6_KLidEeulNrdjL1nptw" x="238" y="75"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_bm6_KbidEeulNrdjL1nptw" type="Node_StateInvariantTransitionShape">
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bm6_KridEeulNrdjL1nptw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_bm7mMridEeulNrdjL1nptw" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_bm7mNLidEeulNrdjL1nptw" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_bm7mNbidEeulNrdjL1nptw" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="project_complain_timing.uml#_bm6_K7idEeulNrdjL1nptw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bm7mM7idEeulNrdjL1nptw"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XaX7oLicEeulNrdjL1nptw" type="OccurrenceSpecification_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_XaZJwLicEeulNrdjL1nptw" type="OccurrenceSpecification_NameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XaZJwbicEeulNrdjL1nptw" y="18"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_XaZJwricEeulNrdjL1nptw" type="OccurrenceSpecification_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XaZJw7icEeulNrdjL1nptw" y="15"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_XaX7obicEeulNrdjL1nptw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_XaX7oricEeulNrdjL1nptw"/>
+            <element xmi:type="uml:OccurrenceSpecification" href="project_complain_timing.uml#_XaXUkLicEeulNrdjL1nptw"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Nhk1ELidEeulNrdjL1nptw" x="535" y="77"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_XaZJxbicEeulNrdjL1nptw" type="Node_StateInvariantTransitionShape">
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XaZJxricEeulNrdjL1nptw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_XaaX4LicEeulNrdjL1nptw" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_XaaX4ricEeulNrdjL1nptw" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XaaX47icEeulNrdjL1nptw" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="project_complain_timing.uml#_XaZw0LicEeulNrdjL1nptw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XaaX4bicEeulNrdjL1nptw"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_yCuTQricEeulNrdjL1nptw" type="OccurrenceSpecification_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_yCu6ULicEeulNrdjL1nptw" type="OccurrenceSpecification_NameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_yCu6UbicEeulNrdjL1nptw" y="18"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_yCu6UricEeulNrdjL1nptw" type="OccurrenceSpecification_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_yCu6U7icEeulNrdjL1nptw" y="15"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_yCuTQ7icEeulNrdjL1nptw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_yCuTRLicEeulNrdjL1nptw"/>
+            <element xmi:type="uml:OccurrenceSpecification" href="project_complain_timing.uml#_yCuTQLicEeulNrdjL1nptw"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_yCu6VLicEeulNrdjL1nptw" x="667" y="25"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_yCu6VbicEeulNrdjL1nptw" type="Node_StateInvariantTransitionShape">
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yCu6VricEeulNrdjL1nptw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_yCvhZbicEeulNrdjL1nptw" type="StateInvariant_FullShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_yCvhZ7icEeulNrdjL1nptw" type="StateInvariant_FullStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_yCvhaLicEeulNrdjL1nptw" y="15"/>
+            </children>
+            <element xmi:type="uml:StateInvariant" href="project_complain_timing.uml#_yCvhYLicEeulNrdjL1nptw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yCvhZricEeulNrdjL1nptw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_Yy3YkLicEeulNrdjL1nptw" type="TimeConstraint_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_Yy3YkricEeulNrdjL1nptw" type="TimeConstraint_BodyLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Yy3Yk7icEeulNrdjL1nptw" x="-7" y="-20"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_Yy3YlLicEeulNrdjL1nptw" type="TimeConstraint_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Yy3_oLicEeulNrdjL1nptw" y="15"/>
+            </children>
+            <element xmi:type="uml:TimeConstraint" href="project_complain_timing.uml#_Yych0LicEeulNrdjL1nptw"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Y0wO8LicEeulNrdjL1nptw" x="65" y="75"/>
+          </children>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_22W21ribEeulNrdjL1nptw"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_22W217ibEeulNrdjL1nptw" visible="false" type="Lifeline_FullTimeRulerCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_22jEELibEeulNrdjL1nptw" type="Node_FreeTimeRulerShape">
+            <children xmi:type="notation:BasicCompartment" xmi:id="_22jrILibEeulNrdjL1nptw" type="Node_FreeTimeRulerCompartment">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_22jrIbibEeulNrdjL1nptw"/>
+            </children>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_22jEEbibEeulNrdjL1nptw"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_22W22LibEeulNrdjL1nptw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_22W22bibEeulNrdjL1nptw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_22W22ribEeulNrdjL1nptw"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="project_complain_timing.uml#_22SlYLibEeulNrdjL1nptw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_22WPwbibEeulNrdjL1nptw"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_zds48ribEeulNrdjL1nptw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_zds487ibEeulNrdjL1nptw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zds49LibEeulNrdjL1nptw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_zds49bibEeulNrdjL1nptw" type="Interaction_TimeRulerCompartment">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zdy_kribEeulNrdjL1nptw" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zdy_k7ibEeulNrdjL1nptw" key="visible" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:Shape" xmi:id="_zdyYgLibEeulNrdjL1nptw" type="Node_FreeTimeRulerShape">
+        <children xmi:type="notation:BasicCompartment" xmi:id="_zdy_kLibEeulNrdjL1nptw" type="Node_FreeTimeRulerCompartment">
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zdy_kbibEeulNrdjL1nptw"/>
+        </children>
+        <element xsi:nil="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zdyYgbibEeulNrdjL1nptw"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_zds49ribEeulNrdjL1nptw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_zds497ibEeulNrdjL1nptw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zds4-LibEeulNrdjL1nptw"/>
+    </children>
+    <element xmi:type="uml:Interaction" href="project_complain_timing.uml#_zdpOkLibEeulNrdjL1nptw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zdsR4bibEeulNrdjL1nptw" x="40" width="981" height="441"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_yBUagbibEeulNrdjL1nptw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_yBUagribEeulNrdjL1nptw"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_yBUag7ibEeulNrdjL1nptw" diagramKindId="org.eclipse.papyrus.uml.diagram.timing">
+    <owner xmi:type="uml:Model" href="project_complain_timing.uml#_yAIuwLibEeulNrdjL1nptw"/>
+  </styles>
+  <element xmi:type="uml:Model" href="project_complain_timing.uml#_yAIuwLibEeulNrdjL1nptw"/>
+  <edges xmi:type="notation:Connector" xmi:id="_nBah8LicEeulNrdjL1nptw" type="Message_LostEdge" source="_U0JgQricEeulNrdjL1nptw" target="_WWzl0LicEeulNrdjL1nptw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_nBah87icEeulNrdjL1nptw" type="Message_LostNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_nBah9LicEeulNrdjL1nptw" x="23" y="15"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_nBah9bicEeulNrdjL1nptw" type="Message_LostStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_nBah9ricEeulNrdjL1nptw" y="-30"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_nBah8bicEeulNrdjL1nptw"/>
+    <element xmi:type="uml:Message" href="project_complain_timing.uml#_nBRYALicEeulNrdjL1nptw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nBah8ricEeulNrdjL1nptw" points="[-5, 0, -168, 107]$[164, -108, 1, -1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nB97kLicEeulNrdjL1nptw" id="(1.0,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nB97kbicEeulNrdjL1nptw" id="(0.0,0.8)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_jXjC0LidEeulNrdjL1nptw" type="Message_FoundEdge" source="_vlL50LicEeulNrdjL1nptw" target="_XaaX4LicEeulNrdjL1nptw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jXjp4LidEeulNrdjL1nptw" type="Message_FoundNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jXjp4bidEeulNrdjL1nptw" x="67" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jXjp4ridEeulNrdjL1nptw" type="Message_FoundStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jXjp47idEeulNrdjL1nptw" y="-30"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_jXjC0bidEeulNrdjL1nptw"/>
+    <element xmi:type="uml:Message" href="project_complain_timing.uml#_jXVncLidEeulNrdjL1nptw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jXjC0ridEeulNrdjL1nptw" points="[0, 3, -10, -216]$[6, 214, -4, -5]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jYI4sLidEeulNrdjL1nptw" id="(0.4,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jYI4sbidEeulNrdjL1nptw" id="(0.03076923076923077,0.0)"/>
+  </edges>
+</notation:Diagram>

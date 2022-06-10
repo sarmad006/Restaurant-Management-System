@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_7EdEcLfWEeudMIodE3DF5Q" name="project_complainManagement_collaboration">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_7GHRULfWEeudMIodE3DF5Q">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_7FdKALfWEeudMIodE3DF5Q" name="ComplainManagement">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_lBGFgLfXEeudMIodE3DF5Q" name="" type="_7FdKALfWEeudMIodE3DF5Q"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="__EqKgLfWEeudMIodE3DF5Q" name="Customer" coveredBy="_Ehp-sLfXEeudMIodE3DF5Q _gILOwLfXEeudMIodE3DF5Q"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_AjzCALfXEeudMIodE3DF5Q" name="System" coveredBy="_EhqlwLfXEeudMIodE3DF5Q _L9FOcLfXEeudMIodE3DF5Q _bgAJwLfXEeudMIodE3DF5Q _gIKnsLfXEeudMIodE3DF5Q"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_CvalALfXEeudMIodE3DF5Q" name="Manager" coveredBy="_L9EnYLfXEeudMIodE3DF5Q _bf_isLfXEeudMIodE3DF5Q _uc8U4LfXEeudMIodE3DF5Q _uc878LfXEeudMIodE3DF5Q"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_lBE3YLfXEeudMIodE3DF5Q" name="" represents="_lBGFgLfXEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Ehp-sLfXEeudMIodE3DF5Q" name="Message4SendEvent" covered="__EqKgLfWEeudMIodE3DF5Q" message="_EhowkLfXEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_EhqlwLfXEeudMIodE3DF5Q" name="Message4ReceiveEvent" covered="_AjzCALfXEeudMIodE3DF5Q" message="_EhowkLfXEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_L9EnYLfXEeudMIodE3DF5Q" name="Message7SendEvent" covered="_CvalALfXEeudMIodE3DF5Q" message="_L9DZQLfXEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_L9FOcLfXEeudMIodE3DF5Q" name="Message7ReceiveEvent" covered="_AjzCALfXEeudMIodE3DF5Q" message="_L9DZQLfXEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bf_isLfXEeudMIodE3DF5Q" name="Message13SendEvent" covered="_CvalALfXEeudMIodE3DF5Q" message="_bf-UkLfXEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bgAJwLfXEeudMIodE3DF5Q" name="Message13ReceiveEvent" covered="_AjzCALfXEeudMIodE3DF5Q" message="_bf-UkLfXEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_gIKnsLfXEeudMIodE3DF5Q" name="Message16SendEvent" covered="_AjzCALfXEeudMIodE3DF5Q" message="_gIJZkLfXEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_gILOwLfXEeudMIodE3DF5Q" name="Message16ReceiveEvent" covered="__EqKgLfWEeudMIodE3DF5Q" message="_gIJZkLfXEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_uc8U4LfXEeudMIodE3DF5Q" name="Message18SendEvent" covered="_CvalALfXEeudMIodE3DF5Q" message="_uc7GwLfXEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_uc878LfXEeudMIodE3DF5Q" name="Message18ReceiveEvent" covered="_CvalALfXEeudMIodE3DF5Q" message="_uc7GwLfXEeudMIodE3DF5Q"/>
+    <message xmi:type="uml:Message" xmi:id="_EhowkLfXEeudMIodE3DF5Q" name="1:Submit_complain()" messageSort="asynchCall" receiveEvent="_EhqlwLfXEeudMIodE3DF5Q" sendEvent="_Ehp-sLfXEeudMIodE3DF5Q"/>
+    <message xmi:type="uml:Message" xmi:id="_L9DZQLfXEeudMIodE3DF5Q" name="4:Give_feedback()" messageSort="asynchCall" receiveEvent="_L9FOcLfXEeudMIodE3DF5Q" sendEvent="_L9EnYLfXEeudMIodE3DF5Q"/>
+    <message xmi:type="uml:Message" xmi:id="_bf-UkLfXEeudMIodE3DF5Q" name="2:View_complain()" messageSort="asynchCall" receiveEvent="_bgAJwLfXEeudMIodE3DF5Q" sendEvent="_bf_isLfXEeudMIodE3DF5Q"/>
+    <message xmi:type="uml:Message" xmi:id="_gIJZkLfXEeudMIodE3DF5Q" name="5:Give_feedback()" messageSort="asynchCall" receiveEvent="_gILOwLfXEeudMIodE3DF5Q" sendEvent="_gIKnsLfXEeudMIodE3DF5Q"/>
+    <message xmi:type="uml:Message" xmi:id="_uc7GwLfXEeudMIodE3DF5Q" name="3:Launch_complain()" messageSort="asynchCall" receiveEvent="_uc878LfXEeudMIodE3DF5Q" sendEvent="_uc8U4LfXEeudMIodE3DF5Q"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_KfYhYLfXEeudMIodE3DF5Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KfnK4LfXEeudMIodE3DF5Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>

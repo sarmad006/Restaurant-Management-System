@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ftPRILfVEeudMIodE3DF5Q" name="project_booktTable_collaboration">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_fu9vcLfVEeudMIodE3DF5Q">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_fuDJcLfVEeudMIodE3DF5Q" name="BookTable">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_iqWigLfVEeudMIodE3DF5Q" name="Customer" coveredBy="_ojA_ALfVEeudMIodE3DF5Q"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_nB-qELfVEeudMIodE3DF5Q" name="system" coveredBy="_ojBmELfVEeudMIodE3DF5Q _aBfZ0LfWEeudMIodE3DF5Q _uNnU4bfWEeudMIodE3DF5Q"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_RkZ4wLfWEeudMIodE3DF5Q" name="Manager" coveredBy="_uNnU4LfWEeudMIodE3DF5Q"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_UnczALfWEeudMIodE3DF5Q" name="Waiter" coveredBy="_aBfZ0bfWEeudMIodE3DF5Q _kSw1ULfWEeudMIodE3DF5Q _kSxcYLfWEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ojA_ALfVEeudMIodE3DF5Q" name="Message3SendEvent" covered="_iqWigLfVEeudMIodE3DF5Q" message="_oiW3sLfVEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ojBmELfVEeudMIodE3DF5Q" name="Message3ReceiveEvent" covered="_nB-qELfVEeudMIodE3DF5Q" message="_oiW3sLfVEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_aBfZ0LfWEeudMIodE3DF5Q" name="Message8SendEvent" covered="_nB-qELfVEeudMIodE3DF5Q" message="_aBeLsLfWEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_aBfZ0bfWEeudMIodE3DF5Q" name="Message8ReceiveEvent" covered="_UnczALfWEeudMIodE3DF5Q" message="_aBeLsLfWEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kSw1ULfWEeudMIodE3DF5Q" name="Message11SendEvent" covered="_UnczALfWEeudMIodE3DF5Q" message="_kSvnMLfWEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kSxcYLfWEeudMIodE3DF5Q" name="Message11ReceiveEvent" covered="_UnczALfWEeudMIodE3DF5Q" message="_kSvnMLfWEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_uNnU4LfWEeudMIodE3DF5Q" name="Message14SendEvent" covered="_RkZ4wLfWEeudMIodE3DF5Q" message="_uNmt0LfWEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_uNnU4bfWEeudMIodE3DF5Q" name="Message14ReceiveEvent" covered="_nB-qELfVEeudMIodE3DF5Q" message="_uNmt0LfWEeudMIodE3DF5Q"/>
+    <message xmi:type="uml:Message" xmi:id="_oiW3sLfVEeudMIodE3DF5Q" name="1:request_table()" messageSort="asynchCall" receiveEvent="_ojBmELfVEeudMIodE3DF5Q" sendEvent="_ojA_ALfVEeudMIodE3DF5Q"/>
+    <message xmi:type="uml:Message" xmi:id="_aBeLsLfWEeudMIodE3DF5Q" name="2:view_unreserved_tables()" messageSort="asynchCall" receiveEvent="_aBfZ0bfWEeudMIodE3DF5Q" sendEvent="_aBfZ0LfWEeudMIodE3DF5Q"/>
+    <message xmi:type="uml:Message" xmi:id="_kSvnMLfWEeudMIodE3DF5Q" name="3:Reserve_table()" messageSort="asynchCall" receiveEvent="_kSxcYLfWEeudMIodE3DF5Q" sendEvent="_kSw1ULfWEeudMIodE3DF5Q"/>
+    <message xmi:type="uml:Message" xmi:id="_uNmt0LfWEeudMIodE3DF5Q" name="4:view_all_tables()" messageSort="asynchCall" receiveEvent="_uNnU4bfWEeudMIodE3DF5Q" sendEvent="_uNnU4LfWEeudMIodE3DF5Q"/>
+  </packagedElement>
+</uml:Model>

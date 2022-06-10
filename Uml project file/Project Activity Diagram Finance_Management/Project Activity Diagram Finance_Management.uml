@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_xIivULhiEeuvU8abVBrHDQ" name="Project Activity Diagram Finance_Management">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_xJXOsLhiEeuvU8abVBrHDQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_xIuVgLhiEeuvU8abVBrHDQ" name="Finance_managent_Activity " node="_62CvYLhiEeuvU8abVBrHDQ _-N408LhiEeuvU8abVBrHDQ _tamogLhjEeuvU8abVBrHDQ _-U-e8LhjEeuvU8abVBrHDQ _E_aWoLhkEeuvU8abVBrHDQ _LDarALhlEeuvU8abVBrHDQ _SiEN4LhlEeuvU8abVBrHDQ _WLUMgLhlEeuvU8abVBrHDQ _gtX2ALhlEeuvU8abVBrHDQ _icwwALhlEeuvU8abVBrHDQ">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_pRZskLhlEeuvU8abVBrHDQ" target="_-N408LhiEeuvU8abVBrHDQ" source="_62CvYLhiEeuvU8abVBrHDQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_tDEnYLhlEeuvU8abVBrHDQ" target="_tamogLhjEeuvU8abVBrHDQ" source="_-N408LhiEeuvU8abVBrHDQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_t6_G0LhlEeuvU8abVBrHDQ" target="_-U-e8LhjEeuvU8abVBrHDQ" source="_tamogLhjEeuvU8abVBrHDQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ujkw0LhlEeuvU8abVBrHDQ" target="_E_aWoLhkEeuvU8abVBrHDQ" source="_-U-e8LhjEeuvU8abVBrHDQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_vK7EsLhlEeuvU8abVBrHDQ" target="_LDarALhlEeuvU8abVBrHDQ" source="_E_aWoLhkEeuvU8abVBrHDQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_x1DvsLhlEeuvU8abVBrHDQ" target="_WLUMgLhlEeuvU8abVBrHDQ" source="_SiEN4LhlEeuvU8abVBrHDQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_y8mmkLhlEeuvU8abVBrHDQ" target="_icwwALhlEeuvU8abVBrHDQ" source="_WLUMgLhlEeuvU8abVBrHDQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_z_aucLhlEeuvU8abVBrHDQ" target="_gtX2ALhlEeuvU8abVBrHDQ" source="_LDarALhlEeuvU8abVBrHDQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_a8MFELhmEeuvU8abVBrHDQ" target="_SiEN4LhlEeuvU8abVBrHDQ" source="_tamogLhjEeuvU8abVBrHDQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_hcjawLhmEeuvU8abVBrHDQ" target="_-N408LhiEeuvU8abVBrHDQ" source="_WLUMgLhlEeuvU8abVBrHDQ"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_62CvYLhiEeuvU8abVBrHDQ" name="InitialNode1" outgoing="_pRZskLhlEeuvU8abVBrHDQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_-N408LhiEeuvU8abVBrHDQ" name="Enter Username and Password" incoming="_pRZskLhlEeuvU8abVBrHDQ _hcjawLhmEeuvU8abVBrHDQ" outgoing="_tDEnYLhlEeuvU8abVBrHDQ"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_tamogLhjEeuvU8abVBrHDQ" name="Valid " incoming="_tDEnYLhlEeuvU8abVBrHDQ" outgoing="_t6_G0LhlEeuvU8abVBrHDQ _a8MFELhmEeuvU8abVBrHDQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_-U-e8LhjEeuvU8abVBrHDQ" name="Enter Currrent Monthly Record" incoming="_t6_G0LhlEeuvU8abVBrHDQ" outgoing="_ujkw0LhlEeuvU8abVBrHDQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_E_aWoLhkEeuvU8abVBrHDQ" name="Update DataBase" incoming="_ujkw0LhlEeuvU8abVBrHDQ" outgoing="_vK7EsLhlEeuvU8abVBrHDQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_LDarALhlEeuvU8abVBrHDQ" name="Logout" incoming="_vK7EsLhlEeuvU8abVBrHDQ" outgoing="_z_aucLhlEeuvU8abVBrHDQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_SiEN4LhlEeuvU8abVBrHDQ" name="Check try again limit" incoming="_a8MFELhmEeuvU8abVBrHDQ" outgoing="_x1DvsLhlEeuvU8abVBrHDQ"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_WLUMgLhlEeuvU8abVBrHDQ" name="Limit_valid" incoming="_x1DvsLhlEeuvU8abVBrHDQ" outgoing="_y8mmkLhlEeuvU8abVBrHDQ _hcjawLhmEeuvU8abVBrHDQ"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_gtX2ALhlEeuvU8abVBrHDQ" name="FlowFinalNode9" incoming="_z_aucLhlEeuvU8abVBrHDQ"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_icwwALhlEeuvU8abVBrHDQ" name="FlowFinalNode10" incoming="_y8mmkLhlEeuvU8abVBrHDQ"/>
+  </packagedElement>
+</uml:Model>

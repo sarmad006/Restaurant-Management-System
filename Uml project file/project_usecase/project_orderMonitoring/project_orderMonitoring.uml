@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_t52ccLe3EeudMIodE3DF5Q" name="project_orderMonitoring">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_t7MgQLe3EeudMIodE3DF5Q">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_vhFgALe3EeudMIodE3DF5Q" name="OrderMonitoring">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_A9WikLe4EeudMIodE3DF5Q" name="Add orders">
+      <include xmi:type="uml:Include" xmi:id="_SwjecLe4EeudMIodE3DF5Q" addition="_Q7T0ELe4EeudMIodE3DF5Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Q7T0ELe4EeudMIodE3DF5Q" name="Fill form"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_OJRU0Le5EeudMIodE3DF5Q" name="give order"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_TltIULe5EeudMIodE3DF5Q" name="view all orders">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_dgxDQLe5EeudMIodE3DF5Q" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_eZk6kLe5EeudMIodE3DF5Q" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_aOk5wLe5EeudMIodE3DF5Q" name="accept order">
+      <extend xmi:type="uml:Extend" xmi:id="_dgwcMLe5EeudMIodE3DF5Q" extendedCase="_TltIULe5EeudMIodE3DF5Q" extensionLocation="_dgxDQLe5EeudMIodE3DF5Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_bgDvwLe5EeudMIodE3DF5Q" name="reject order">
+      <extend xmi:type="uml:Extend" xmi:id="_eZkTgLe5EeudMIodE3DF5Q" extendedCase="_TltIULe5EeudMIodE3DF5Q" extensionLocation="_eZk6kLe5EeudMIodE3DF5Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_nVg60Le5EeudMIodE3DF5Q" name="view dine-in order"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_4o68ULe5EeudMIodE3DF5Q" name="view take-away orders"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_zxdwELe3EeudMIodE3DF5Q" name="Rider"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_0qgQ4Le3EeudMIodE3DF5Q" name="Manager"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_1Y_HgLe3EeudMIodE3DF5Q" name="Waiter"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ClGjgLe4EeudMIodE3DF5Q" memberEnd="_ClHKkre4EeudMIodE3DF5Q _ClHKk7e4EeudMIodE3DF5Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ClHKkLe4EeudMIodE3DF5Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ClHKkbe4EeudMIodE3DF5Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ClHKkre4EeudMIodE3DF5Q" name="add orders" type="_A9WikLe4EeudMIodE3DF5Q" association="_ClGjgLe4EeudMIodE3DF5Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ClHKk7e4EeudMIodE3DF5Q" name="waiter" type="_1Y_HgLe3EeudMIodE3DF5Q" association="_ClGjgLe4EeudMIodE3DF5Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_NBChcLe5EeudMIodE3DF5Q" name="Customer"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_QdKqELe5EeudMIodE3DF5Q" memberEnd="_QdL4MLe5EeudMIodE3DF5Q _QdL4Mbe5EeudMIodE3DF5Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QdLRILe5EeudMIodE3DF5Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QdLRIbe5EeudMIodE3DF5Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QdL4MLe5EeudMIodE3DF5Q" name="give order" type="_OJRU0Le5EeudMIodE3DF5Q" association="_QdKqELe5EeudMIodE3DF5Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QdL4Mbe5EeudMIodE3DF5Q" name="customer" type="_NBChcLe5EeudMIodE3DF5Q" association="_QdKqELe5EeudMIodE3DF5Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_VstRELe5EeudMIodE3DF5Q" memberEnd="_VsufMre5EeudMIodE3DF5Q _VsvGQLe5EeudMIodE3DF5Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VsufMLe5EeudMIodE3DF5Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VsufMbe5EeudMIodE3DF5Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_VsufMre5EeudMIodE3DF5Q" name="view all orders" type="_TltIULe5EeudMIodE3DF5Q" association="_VstRELe5EeudMIodE3DF5Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_VsvGQLe5EeudMIodE3DF5Q" name="waiter" type="_1Y_HgLe3EeudMIodE3DF5Q" association="_VstRELe5EeudMIodE3DF5Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_W23-ILe5EeudMIodE3DF5Q" memberEnd="_W24lMre5EeudMIodE3DF5Q _W25MQLe5EeudMIodE3DF5Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_W24lMLe5EeudMIodE3DF5Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_W24lMbe5EeudMIodE3DF5Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_W24lMre5EeudMIodE3DF5Q" name="view all orders" type="_TltIULe5EeudMIodE3DF5Q" association="_W23-ILe5EeudMIodE3DF5Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_W25MQLe5EeudMIodE3DF5Q" name="manager" type="_0qgQ4Le3EeudMIodE3DF5Q" association="_W23-ILe5EeudMIodE3DF5Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_p-E4gLe5EeudMIodE3DF5Q" memberEnd="_p-Ffkre5EeudMIodE3DF5Q _p-GGoLe5EeudMIodE3DF5Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_p-FfkLe5EeudMIodE3DF5Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_p-Ffkbe5EeudMIodE3DF5Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_p-Ffkre5EeudMIodE3DF5Q" name="view dine-in order" type="_nVg60Le5EeudMIodE3DF5Q" association="_p-E4gLe5EeudMIodE3DF5Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_p-GGoLe5EeudMIodE3DF5Q" name="waiter" type="_1Y_HgLe3EeudMIodE3DF5Q" association="_p-E4gLe5EeudMIodE3DF5Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1ni2ALe5EeudMIodE3DF5Q" memberEnd="_1nkEILe5EeudMIodE3DF5Q _1nkEIbe5EeudMIodE3DF5Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1njdELe5EeudMIodE3DF5Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1njdEbe5EeudMIodE3DF5Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1nkEILe5EeudMIodE3DF5Q" name="view dine-in order" type="_nVg60Le5EeudMIodE3DF5Q" association="_1ni2ALe5EeudMIodE3DF5Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1nkEIbe5EeudMIodE3DF5Q" name="manager" type="_0qgQ4Le3EeudMIodE3DF5Q" association="_1ni2ALe5EeudMIodE3DF5Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_buG9YLe6EeudMIodE3DF5Q" memberEnd="_buILgre6EeudMIodE3DF5Q _buIykLe6EeudMIodE3DF5Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_buILgLe6EeudMIodE3DF5Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_buILgbe6EeudMIodE3DF5Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_buILgre6EeudMIodE3DF5Q" name="do take-away orders" type="_4o68ULe5EeudMIodE3DF5Q" association="_buG9YLe6EeudMIodE3DF5Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_buIykLe6EeudMIodE3DF5Q" name="rider" type="_zxdwELe3EeudMIodE3DF5Q" association="_buG9YLe6EeudMIodE3DF5Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tOlxkLe6EeudMIodE3DF5Q" memberEnd="_tOm_sLe6EeudMIodE3DF5Q _tOm_sbe6EeudMIodE3DF5Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tOmYoLe6EeudMIodE3DF5Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tOmYobe6EeudMIodE3DF5Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tOm_sLe6EeudMIodE3DF5Q" name="view take-away orders" type="_4o68ULe5EeudMIodE3DF5Q" association="_tOlxkLe6EeudMIodE3DF5Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tOm_sbe6EeudMIodE3DF5Q" name="manager" type="_0qgQ4Le3EeudMIodE3DF5Q" association="_tOlxkLe6EeudMIodE3DF5Q"/>
+  </packagedElement>
+</uml:Model>

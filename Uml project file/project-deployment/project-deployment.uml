@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_CBaU0LiuEeuWxPOE6SmTvw" name="project-deployment">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_CInwELiuEeuWxPOE6SmTvw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Device" xmi:id="_WQNwcLiuEeuWxPOE6SmTvw" name="WebServer">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_Gyu5ULivEeuWxPOE6SmTvw" name="index.js" fileName=""/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_qVLBoLiwEeuWxPOE6SmTvw" name="Revenue.js" fileName=""/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_Ir1ooLiyEeuWxPOE6SmTvw" name="Expense.js" fileName=""/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_xpTWkLiwEeuWxPOE6SmTvw" client="_qVLBoLiwEeuWxPOE6SmTvw" supplier="_Gyu5ULivEeuWxPOE6SmTvw"/>
+  <packagedElement xmi:type="uml:Device" xmi:id="_0B3wcLiwEeuWxPOE6SmTvw" name="DBServer">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_K7Ye0LixEeuWxPOE6SmTvw" name="MongoDB" fileName=""/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Device" xmi:id="_0e8uALiwEeuWxPOE6SmTvw" name="UserPC">
+    <nestedNode xmi:type="uml:Device" xmi:id="_15FJsLiwEeuWxPOE6SmTvw" name="WebBrowser"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_LfgfkLixEeuWxPOE6SmTvw" name="HTML5" fileName=""/>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_hh5YsLixEeuWxPOE6SmTvw" name="TCP/IP" memberEnd="_hh708LixEeuWxPOE6SmTvw _hh-RMLixEeuWxPOE6SmTvw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hh7N4LixEeuWxPOE6SmTvw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hh7N4bixEeuWxPOE6SmTvw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_hh708LixEeuWxPOE6SmTvw" name="dbserver" type="_0B3wcLiwEeuWxPOE6SmTvw" association="_hh5YsLixEeuWxPOE6SmTvw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_hh-RMLixEeuWxPOE6SmTvw" name="webserver" type="_WQNwcLiuEeuWxPOE6SmTvw" association="_hh5YsLixEeuWxPOE6SmTvw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_kul-MLixEeuWxPOE6SmTvw" name="TCP/IP" memberEnd="_kunMUrixEeuWxPOE6SmTvw _kupBgLixEeuWxPOE6SmTvw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kunMULixEeuWxPOE6SmTvw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kunMUbixEeuWxPOE6SmTvw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_kunMUrixEeuWxPOE6SmTvw" name="userpc" type="_0e8uALiwEeuWxPOE6SmTvw" association="_kul-MLixEeuWxPOE6SmTvw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_kupBgLixEeuWxPOE6SmTvw" name="webserver" type="_WQNwcLiuEeuWxPOE6SmTvw" association="_kul-MLixEeuWxPOE6SmTvw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Pik28LiyEeuWxPOE6SmTvw" client="_Ir1ooLiyEeuWxPOE6SmTvw" supplier="_Gyu5ULivEeuWxPOE6SmTvw"/>
+</uml:Model>

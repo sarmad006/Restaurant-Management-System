@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_OBUAwLe7EeudMIodE3DF5Q" name="project_financeMonitoring">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_OCWikLe7EeudMIodE3DF5Q">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_dkWQ0Le7EeudMIodE3DF5Q" name="FinanceMonitoring">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_vcR7sLe7EeudMIodE3DF5Q" name="view revenue details"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_3jdeMLe7EeudMIodE3DF5Q" name="view date wise">
+      <generalization xmi:type="uml:Generalization" xmi:id="_XqI_YLe_EeudMIodE3DF5Q" general="_vcR7sLe7EeudMIodE3DF5Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_5ZB4sLe7EeudMIodE3DF5Q" name="view transactions"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_BLcsILe8EeudMIodE3DF5Q" name="view monthly revenue">
+      <generalization xmi:type="uml:Generalization" xmi:id="_h-6a0Le_EeudMIodE3DF5Q" general="_vcR7sLe7EeudMIodE3DF5Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_syD7sLe8EeudMIodE3DF5Q" name="view monthly expense"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_7OHgILe9EeudMIodE3DF5Q" name="view analysis"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_AFwIALe_EeudMIodE3DF5Q" name="view income statement">
+      <generalization xmi:type="uml:Generalization" xmi:id="_D7PL0Le_EeudMIodE3DF5Q" general="_7OHgILe9EeudMIodE3DF5Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_BrxqoLe_EeudMIodE3DF5Q" name="view net profit">
+      <generalization xmi:type="uml:Generalization" xmi:id="_Ft6qYLe_EeudMIodE3DF5Q" general="_7OHgILe9EeudMIodE3DF5Q"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_fNA3wLe7EeudMIodE3DF5Q" name="Manager"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_19zvALe7EeudMIodE3DF5Q" memberEnd="_1909Ire7EeudMIodE3DF5Q _191kMLe7EeudMIodE3DF5Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1909ILe7EeudMIodE3DF5Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1909Ibe7EeudMIodE3DF5Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1909Ire7EeudMIodE3DF5Q" name="view monthly revenue" type="_vcR7sLe7EeudMIodE3DF5Q" association="_19zvALe7EeudMIodE3DF5Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_191kMLe7EeudMIodE3DF5Q" name="manager" type="_fNA3wLe7EeudMIodE3DF5Q" association="_19zvALe7EeudMIodE3DF5Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_uk_R4Le8EeudMIodE3DF5Q" memberEnd="_ulBHELe8EeudMIodE3DF5Q _ulBHEbe8EeudMIodE3DF5Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ulAgALe8EeudMIodE3DF5Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ulAgAbe8EeudMIodE3DF5Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ulBHELe8EeudMIodE3DF5Q" name="view expense" type="_syD7sLe8EeudMIodE3DF5Q" association="_uk_R4Le8EeudMIodE3DF5Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ulBHEbe8EeudMIodE3DF5Q" name="manager" type="_fNA3wLe7EeudMIodE3DF5Q" association="_uk_R4Le8EeudMIodE3DF5Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9roEYLe9EeudMIodE3DF5Q" memberEnd="_9rpSgre9EeudMIodE3DF5Q _9rp5kLe9EeudMIodE3DF5Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9rpSgLe9EeudMIodE3DF5Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9rpSgbe9EeudMIodE3DF5Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9rpSgre9EeudMIodE3DF5Q" name="view net profit" type="_7OHgILe9EeudMIodE3DF5Q" association="_9roEYLe9EeudMIodE3DF5Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9rp5kLe9EeudMIodE3DF5Q" name="manager" type="_fNA3wLe7EeudMIodE3DF5Q" association="_9roEYLe9EeudMIodE3DF5Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_lqvMULe_EeudMIodE3DF5Q" memberEnd="_lqxBgLe_EeudMIodE3DF5Q _lqxBgbe_EeudMIodE3DF5Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lqwacLe_EeudMIodE3DF5Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lqwacbe_EeudMIodE3DF5Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lqxBgLe_EeudMIodE3DF5Q" name="view revenue details" type="_vcR7sLe7EeudMIodE3DF5Q" association="_lqvMULe_EeudMIodE3DF5Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lqxBgbe_EeudMIodE3DF5Q" name="view transactions" type="_5ZB4sLe7EeudMIodE3DF5Q" association="_lqvMULe_EeudMIodE3DF5Q"/>
+  </packagedElement>
+</uml:Model>

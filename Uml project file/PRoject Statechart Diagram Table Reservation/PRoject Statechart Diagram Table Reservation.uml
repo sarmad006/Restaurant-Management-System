@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_C75X8LkuEeuPPeoLuVtUIw" name="PRoject Statechart Diagram Table Reservation">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_C8a8YLkuEeuPPeoLuVtUIw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_C8E-ILkuEeuPPeoLuVtUIw" name="Table Reservation">
+    <region xmi:type="uml:Region" xmi:id="_C8FlMLkuEeuPPeoLuVtUIw" name="Region1">
+      <subvertex xmi:type="uml:State" xmi:id="_N-UjkLkuEeuPPeoLuVtUIw" name="Manager">
+        <region xmi:type="uml:Region" xmi:id="_dA38wLkuEeuPPeoLuVtUIw" name="Region1">
+          <transition xmi:type="uml:Transition" xmi:id="_9cnPULkuEeuPPeoLuVtUIw" source="_dA4j1rkuEeuPPeoLuVtUIw" target="_iKHugLkuEeuPPeoLuVtUIw"/>
+          <transition xmi:type="uml:Transition" xmi:id="_-aWC4LkuEeuPPeoLuVtUIw" source="_iKHugLkuEeuPPeoLuVtUIw" target="_nLhL0LkuEeuPPeoLuVtUIw"/>
+          <transition xmi:type="uml:Transition" xmi:id="_ACaz8LkvEeuPPeoLuVtUIw" source="_pLqeoLkuEeuPPeoLuVtUIw" target="_wSqWgLkuEeuPPeoLuVtUIw"/>
+          <transition xmi:type="uml:Transition" xmi:id="_Agw80LkvEeuPPeoLuVtUIw" source="_pLqeoLkuEeuPPeoLuVtUIw" target="_0igbELkuEeuPPeoLuVtUIw"/>
+          <transition xmi:type="uml:Transition" xmi:id="_LOcAcLkvEeuPPeoLuVtUIw" source="_dA4j1rkuEeuPPeoLuVtUIw" target="_0igbELkuEeuPPeoLuVtUIw"/>
+          <subvertex xmi:type="uml:State" xmi:id="_dA4j1rkuEeuPPeoLuVtUIw" name="check_available_seats"/>
+          <subvertex xmi:type="uml:State" xmi:id="_iKHugLkuEeuPPeoLuVtUIw" name="Ask_for_food_order"/>
+          <subvertex xmi:type="uml:State" xmi:id="_pLqeoLkuEeuPPeoLuVtUIw" name="Check_available_food"/>
+          <subvertex xmi:type="uml:FinalState" xmi:id="_0igbELkuEeuPPeoLuVtUIw" name="FinalState4"/>
+        </region>
+      </subvertex>
+    </region>
+    <region xmi:type="uml:Region" xmi:id="_L1w7oLkuEeuPPeoLuVtUIw" name="Region2">
+      <transition xmi:type="uml:Transition" xmi:id="_7kIqwLkuEeuPPeoLuVtUIw" source="_U4SsELkuEeuPPeoLuVtUIw" target="_ZWIJVbkuEeuPPeoLuVtUIw"/>
+      <subvertex xmi:type="uml:State" xmi:id="_NC6rQLkuEeuPPeoLuVtUIw" name="Customer">
+        <region xmi:type="uml:Region" xmi:id="_ZWHiQLkuEeuPPeoLuVtUIw" name="Region1">
+          <transition xmi:type="uml:Transition" xmi:id="_8g08gLkuEeuPPeoLuVtUIw" source="_ZWIJVbkuEeuPPeoLuVtUIw" target="_dA4j1rkuEeuPPeoLuVtUIw"/>
+          <transition xmi:type="uml:Transition" xmi:id="_HLUwULkvEeuPPeoLuVtUIw" source="_nLhL0LkuEeuPPeoLuVtUIw" target="_pLqeoLkuEeuPPeoLuVtUIw"/>
+          <transition xmi:type="uml:Transition" xmi:id="_SS3sgLkvEeuPPeoLuVtUIw" source="_wSqWgLkuEeuPPeoLuVtUIw" target="_nLhL0LkuEeuPPeoLuVtUIw"/>
+          <subvertex xmi:type="uml:State" xmi:id="_ZWIJVbkuEeuPPeoLuVtUIw" name="Reservation"/>
+          <subvertex xmi:type="uml:State" xmi:id="_nLhL0LkuEeuPPeoLuVtUIw" name="Give_food_order"/>
+          <subvertex xmi:type="uml:State" xmi:id="_wSqWgLkuEeuPPeoLuVtUIw" name="Provide_alternative_dish"/>
+        </region>
+      </subvertex>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_U4SsELkuEeuPPeoLuVtUIw" name="Initial2"/>
+    </region>
+  </packagedElement>
+</uml:Model>

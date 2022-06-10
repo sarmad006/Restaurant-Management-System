@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_xMSaYLezEeudMIodE3DF5Q" name="project_bookTable">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_xN3HsLezEeudMIodE3DF5Q">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_2M2xQLezEeudMIodE3DF5Q" name="BookTable">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="__tXeMLezEeudMIodE3DF5Q" name="view un-reserved tables">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_mIZZsbe0EeudMIodE3DF5Q" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_mywlULe0EeudMIodE3DF5Q" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_NeRpULe0EeudMIodE3DF5Q" name="display no free tables">
+      <extend xmi:type="uml:Extend" xmi:id="_mIZZsLe0EeudMIodE3DF5Q" extendedCase="__tXeMLezEeudMIodE3DF5Q" extensionLocation="_mIZZsbe0EeudMIodE3DF5Q"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_R-g6ULe0EeudMIodE3DF5Q" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_PEpKMLe0EeudMIodE3DF5Q" name="display unreserved tables">
+      <extend xmi:type="uml:Extend" xmi:id="_myv-QLe0EeudMIodE3DF5Q" extendedCase="__tXeMLezEeudMIodE3DF5Q" extensionLocation="_mywlULe0EeudMIodE3DF5Q"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_SqdaULe0EeudMIodE3DF5Q" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_rTOf0Le0EeudMIodE3DF5Q" name="reserve table"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_6nRRoLe0EeudMIodE3DF5Q" name="view all tables"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_-wOrELe0EeudMIodE3DF5Q" name="reserved">
+      <generalization xmi:type="uml:Generalization" xmi:id="_Y7feELe1EeudMIodE3DF5Q" general="_6nRRoLe0EeudMIodE3DF5Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_CPLeMLe1EeudMIodE3DF5Q" name="un-reserved">
+      <generalization xmi:type="uml:Generalization" xmi:id="_P9Y6oLe1EeudMIodE3DF5Q" general="_6nRRoLe0EeudMIodE3DF5Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_-WYD0Le4EeudMIodE3DF5Q" name="request table"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_32iE0LezEeudMIodE3DF5Q" name="Manager"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_59LBMLezEeudMIodE3DF5Q" name="Waiter"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_EI51YLe0EeudMIodE3DF5Q" memberEnd="_EI84sLe0EeudMIodE3DF5Q _EI-G0Le0EeudMIodE3DF5Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EI7qkLe0EeudMIodE3DF5Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EI8RoLe0EeudMIodE3DF5Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EI84sLe0EeudMIodE3DF5Q" name="view un-reserved tables" type="__tXeMLezEeudMIodE3DF5Q" association="_EI51YLe0EeudMIodE3DF5Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EI-G0Le0EeudMIodE3DF5Q" name="waiter" type="_59LBMLezEeudMIodE3DF5Q" association="_EI51YLe0EeudMIodE3DF5Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_FnJVALe0EeudMIodE3DF5Q" memberEnd="_FnKjIbe0EeudMIodE3DF5Q _FnLKMLe0EeudMIodE3DF5Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FnJ8ELe0EeudMIodE3DF5Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FnKjILe0EeudMIodE3DF5Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_FnKjIbe0EeudMIodE3DF5Q" name="view un-reserved tables" type="__tXeMLezEeudMIodE3DF5Q" association="_FnJVALe0EeudMIodE3DF5Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_FnLKMLe0EeudMIodE3DF5Q" name="manager" type="_32iE0LezEeudMIodE3DF5Q" association="_FnJVALe0EeudMIodE3DF5Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tXRbMLe0EeudMIodE3DF5Q" memberEnd="_tXSCQre0EeudMIodE3DF5Q _tXSCQ7e0EeudMIodE3DF5Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tXSCQLe0EeudMIodE3DF5Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tXSCQbe0EeudMIodE3DF5Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tXSCQre0EeudMIodE3DF5Q" name="reserve table" type="_rTOf0Le0EeudMIodE3DF5Q" association="_tXRbMLe0EeudMIodE3DF5Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tXSCQ7e0EeudMIodE3DF5Q" name="waiter" type="_59LBMLezEeudMIodE3DF5Q" association="_tXRbMLe0EeudMIodE3DF5Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9RomILe0EeudMIodE3DF5Q" memberEnd="_9RpNMre0EeudMIodE3DF5Q _9Rp0QLe0EeudMIodE3DF5Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9RpNMLe0EeudMIodE3DF5Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9RpNMbe0EeudMIodE3DF5Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9RpNMre0EeudMIodE3DF5Q" name="view all tables" type="_6nRRoLe0EeudMIodE3DF5Q" association="_9RomILe0EeudMIodE3DF5Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9Rp0QLe0EeudMIodE3DF5Q" name="manager" type="_32iE0LezEeudMIodE3DF5Q" association="_9RomILe0EeudMIodE3DF5Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_8zWx4Le4EeudMIodE3DF5Q" name="Customer"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_AuKakLe5EeudMIodE3DF5Q" memberEnd="_AuLosLe5EeudMIodE3DF5Q _AuMPwLe5EeudMIodE3DF5Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AuLBoLe5EeudMIodE3DF5Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AuLBobe5EeudMIodE3DF5Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_AuLosLe5EeudMIodE3DF5Q" name="request table" type="_-WYD0Le4EeudMIodE3DF5Q" association="_AuKakLe5EeudMIodE3DF5Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_AuMPwLe5EeudMIodE3DF5Q" name="customer" type="_8zWx4Le4EeudMIodE3DF5Q" association="_AuKakLe5EeudMIodE3DF5Q"/>
+  </packagedElement>
+</uml:Model>

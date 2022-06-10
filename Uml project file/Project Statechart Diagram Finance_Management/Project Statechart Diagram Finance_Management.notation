@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_jsl4wLksEeuPPeoLuVtUIw" type="PapyrusUMLStateMachineDiagram" name="State Machine Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_jsl4wbksEeuPPeoLuVtUIw" type="StateMachine_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jsl4wrksEeuPPeoLuVtUIw" type="StateMachine_NameLabel">
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jsl4w7ksEeuPPeoLuVtUIw" width="1051" height="20"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_jsl4xLksEeuPPeoLuVtUIw" type="StateMachine_RegionCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_jsl4xbksEeuPPeoLuVtUIw" type="Region_Shape">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jsl4xrksEeuPPeoLuVtUIw" source="RegionAnnotationKey">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jsl4x7ksEeuPPeoLuVtUIw" key="RegionZoneKey" value=""/>
+        </eAnnotations>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_jsl4yLksEeuPPeoLuVtUIw" type="Region_SubvertexCompartment">
+          <children xmi:type="notation:Shape" xmi:id="_mHxhwLksEeuPPeoLuVtUIw" type="Pseudostate_InitialShape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_mHxhwrksEeuPPeoLuVtUIw" type="Pseudostate_InitialFloatingNameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_mHxhw7ksEeuPPeoLuVtUIw" x="25" y="3"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_mHxhxLksEeuPPeoLuVtUIw" type="Pseudostate_InitialStereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_mHxhxbksEeuPPeoLuVtUIw" x="25" y="-10"/>
+            </children>
+            <element xmi:type="uml:Pseudostate" href="Project%20Statechart%20Diagram%20Finance_Management.uml#_mHuecLksEeuPPeoLuVtUIw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mHxhwbksEeuPPeoLuVtUIw" x="49" y="30"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_o07rkLksEeuPPeoLuVtUIw" type="State_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_o08SoLksEeuPPeoLuVtUIw" type="State_NameLabel"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_o08SobksEeuPPeoLuVtUIw" type="State_FloatingNameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_o08SorksEeuPPeoLuVtUIw" x="40"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_o08So7ksEeuPPeoLuVtUIw" type="State_RegionCompartment">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o08SpLksEeuPPeoLuVtUIw"/>
+            </children>
+            <element xmi:type="uml:State" href="Project%20Statechart%20Diagram%20Finance_Management.uml#_o05PULksEeuPPeoLuVtUIw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_o07rkbksEeuPPeoLuVtUIw" x="189" y="30"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_t0ZPMLksEeuPPeoLuVtUIw" type="State_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_t0ZPMrksEeuPPeoLuVtUIw" type="State_NameLabel"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_t0ZPM7ksEeuPPeoLuVtUIw" type="State_FloatingNameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_t0ZPNLksEeuPPeoLuVtUIw" x="40"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_t0ZPNbksEeuPPeoLuVtUIw" type="State_RegionCompartment">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t0ZPNrksEeuPPeoLuVtUIw"/>
+            </children>
+            <element xmi:type="uml:State" href="Project%20Statechart%20Diagram%20Finance_Management.uml#_t0NB8LksEeuPPeoLuVtUIw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t0ZPMbksEeuPPeoLuVtUIw" x="469" y="30"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_x-_nYLksEeuPPeoLuVtUIw" type="State_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_x_AOcLksEeuPPeoLuVtUIw" type="State_NameLabel"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_x_AOcbksEeuPPeoLuVtUIw" type="State_FloatingNameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_x_AOcrksEeuPPeoLuVtUIw" x="40"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_x_AOc7ksEeuPPeoLuVtUIw" type="State_RegionCompartment">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x_AOdLksEeuPPeoLuVtUIw"/>
+            </children>
+            <element xmi:type="uml:State" href="Project%20Statechart%20Diagram%20Finance_Management.uml#_x-7V8LksEeuPPeoLuVtUIw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x-_nYbksEeuPPeoLuVtUIw" x="729" y="30"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_zndaALksEeuPPeoLuVtUIw" type="State_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_zndaArksEeuPPeoLuVtUIw" type="State_NameLabel"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_zndaA7ksEeuPPeoLuVtUIw" type="State_FloatingNameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_zndaBLksEeuPPeoLuVtUIw" x="40"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_zndaBbksEeuPPeoLuVtUIw" type="State_RegionCompartment">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zndaBrksEeuPPeoLuVtUIw"/>
+            </children>
+            <element xmi:type="uml:State" href="Project%20Statechart%20Diagram%20Finance_Management.uml#_znX6cLksEeuPPeoLuVtUIw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zndaAbksEeuPPeoLuVtUIw" x="749" y="130"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_1et2kLksEeuPPeoLuVtUIw" type="State_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_1et2krksEeuPPeoLuVtUIw" type="State_NameLabel">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_75HHILksEeuPPeoLuVtUIw" width="141"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_1et2k7ksEeuPPeoLuVtUIw" type="State_FloatingNameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_1et2lLksEeuPPeoLuVtUIw" x="40"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_1et2lbksEeuPPeoLuVtUIw" type="State_RegionCompartment">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1et2lrksEeuPPeoLuVtUIw" y="-1" width="141"/>
+            </children>
+            <element xmi:type="uml:State" href="Project%20Statechart%20Diagram%20Finance_Management.uml#_1env8LksEeuPPeoLuVtUIw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1et2kbksEeuPPeoLuVtUIw" x="209" y="130" width="141"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_Q5eikLktEeuPPeoLuVtUIw" type="State_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_Q5eikrktEeuPPeoLuVtUIw" type="State_NameLabel">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Uq7a8LktEeuPPeoLuVtUIw" width="181"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_Q5eik7ktEeuPPeoLuVtUIw" type="State_FloatingNameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Q5eilLktEeuPPeoLuVtUIw" x="40"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_Q5eilbktEeuPPeoLuVtUIw" type="State_RegionCompartment">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q5eilrktEeuPPeoLuVtUIw" y="-1" width="181"/>
+            </children>
+            <element xmi:type="uml:State" href="Project%20Statechart%20Diagram%20Finance_Management.uml#_Q5Yb8LktEeuPPeoLuVtUIw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q5eikbktEeuPPeoLuVtUIw" x="469" y="130" width="181"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_bmjJQLktEeuPPeoLuVtUIw" type="FinalState_Shape">
+            <children xmi:type="notation:DecorationNode" xmi:id="_bmjJQrktEeuPPeoLuVtUIw" type="FinalState_FloatingNameLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_bmjJQ7ktEeuPPeoLuVtUIw" x="25" y="3"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_bmjJRLktEeuPPeoLuVtUIw" type="FinalState_StereotypeLabel">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_bmjJRbktEeuPPeoLuVtUIw" x="25" y="-10"/>
+            </children>
+            <element xmi:type="uml:FinalState" href="Project%20Statechart%20Diagram%20Finance_Management.uml#_bmbNcLktEeuPPeoLuVtUIw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bmjJQbktEeuPPeoLuVtUIw" x="889" y="130" height="21"/>
+          </children>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jsl4ybksEeuPPeoLuVtUIw"/>
+        </children>
+        <element xmi:type="uml:Region" href="Project%20Statechart%20Diagram%20Finance_Management.uml#_jslRsLksEeuPPeoLuVtUIw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jsl4yrksEeuPPeoLuVtUIw" width="1051" height="231"/>
+      </children>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jsl4y7ksEeuPPeoLuVtUIw" y="20" width="1051" height="231"/>
+    </children>
+    <element xmi:type="uml:StateMachine" href="Project%20Statechart%20Diagram%20Finance_Management.uml#_jskDkLksEeuPPeoLuVtUIw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jsl4zLksEeuPPeoLuVtUIw" x="30" y="30" width="1051" height="251"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_jsl4zbksEeuPPeoLuVtUIw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_jsl4zrksEeuPPeoLuVtUIw"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_jsl4z7ksEeuPPeoLuVtUIw" diagramKindId="org.eclipse.papyrus.uml.diagram.stateMachine">
+    <owner xmi:type="uml:Model" href="Project%20Statechart%20Diagram%20Finance_Management.uml#_jscHwLksEeuPPeoLuVtUIw"/>
+  </styles>
+  <element xmi:type="uml:StateMachine" href="Project%20Statechart%20Diagram%20Finance_Management.uml#_jskDkLksEeuPPeoLuVtUIw"/>
+  <edges xmi:type="notation:Connector" xmi:id="_hmJ7QLktEeuPPeoLuVtUIw" type="Transition_Edge" source="_mHxhwLksEeuPPeoLuVtUIw" target="_o07rkLksEeuPPeoLuVtUIw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_hmJ7Q7ktEeuPPeoLuVtUIw" type="Transition_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hmJ7RLktEeuPPeoLuVtUIw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_hmKiULktEeuPPeoLuVtUIw" type="Transition_GuardLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hmKiUbktEeuPPeoLuVtUIw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_hmKiUrktEeuPPeoLuVtUIw" type="Transition_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hmKiU7ktEeuPPeoLuVtUIw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_hmJ7QbktEeuPPeoLuVtUIw"/>
+    <element xmi:type="uml:Transition" href="Project%20Statechart%20Diagram%20Finance_Management.uml#_hl1yMLktEeuPPeoLuVtUIw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hmJ7QrktEeuPPeoLuVtUIw" points="[96, 94, -643984, -643984]$[220, 100, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hmlZELktEeuPPeoLuVtUIw" id="(0.8492647058823529,0.7014705882352935)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hmlZEbktEeuPPeoLuVtUIw" id="(0.0,0.45454545454545453)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_i3pYULktEeuPPeoLuVtUIw" type="Transition_Edge" source="_o07rkLksEeuPPeoLuVtUIw" target="_1et2kLksEeuPPeoLuVtUIw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_i3p_YLktEeuPPeoLuVtUIw" type="Transition_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_i3p_YbktEeuPPeoLuVtUIw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_i3p_YrktEeuPPeoLuVtUIw" type="Transition_GuardLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_i3p_Y7ktEeuPPeoLuVtUIw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_i3p_ZLktEeuPPeoLuVtUIw" type="Transition_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_i3p_ZbktEeuPPeoLuVtUIw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_i3pYUbktEeuPPeoLuVtUIw"/>
+    <element xmi:type="uml:Transition" href="Project%20Statechart%20Diagram%20Finance_Management.uml#_i3Y5oLktEeuPPeoLuVtUIw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_i3pYUrktEeuPPeoLuVtUIw" points="[280, 124, -643984, -643984]$[280, 180, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_i4BLwLktEeuPPeoLuVtUIw" id="(0.32967032967032966,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_i4BLwbktEeuPPeoLuVtUIw" id="(0.28368794326241137,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_jo3Z4LktEeuPPeoLuVtUIw" type="Transition_Edge" source="_1et2kLksEeuPPeoLuVtUIw" target="_o07rkLksEeuPPeoLuVtUIw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jo3Z47ktEeuPPeoLuVtUIw" type="Transition_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jo3Z5LktEeuPPeoLuVtUIw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jo3Z5bktEeuPPeoLuVtUIw" type="Transition_GuardLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jo3Z5rktEeuPPeoLuVtUIw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jo3Z57ktEeuPPeoLuVtUIw" type="Transition_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jo3Z6LktEeuPPeoLuVtUIw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_jo3Z4bktEeuPPeoLuVtUIw"/>
+    <element xmi:type="uml:Transition" href="Project%20Statechart%20Diagram%20Finance_Management.uml#_jomUILktEeuPPeoLuVtUIw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jo3Z4rktEeuPPeoLuVtUIw" points="[340, 180, -643984, -643984]$[340, 124, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jpP0YLktEeuPPeoLuVtUIw" id="(0.7092198581560284,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jpP0YbktEeuPPeoLuVtUIw" id="(0.6593406593406593,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_kVTpILktEeuPPeoLuVtUIw" type="Transition_Edge" source="_o07rkLksEeuPPeoLuVtUIw" target="_t0ZPMLksEeuPPeoLuVtUIw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_kVTpI7ktEeuPPeoLuVtUIw" type="Transition_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kVUQMLktEeuPPeoLuVtUIw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_kVUQMbktEeuPPeoLuVtUIw" type="Transition_GuardLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kVUQMrktEeuPPeoLuVtUIw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_kVUQM7ktEeuPPeoLuVtUIw" type="Transition_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kVUQNLktEeuPPeoLuVtUIw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_kVTpIbktEeuPPeoLuVtUIw"/>
+    <element xmi:type="uml:Transition" href="Project%20Statechart%20Diagram%20Finance_Management.uml#_kVB8ULktEeuPPeoLuVtUIw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kVTpIrktEeuPPeoLuVtUIw" points="[402, 100, -643984, -643984]$[500, 100, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kVrckLktEeuPPeoLuVtUIw" id="(1.0,0.45454545454545453)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kVrckbktEeuPPeoLuVtUIw" id="(0.0,0.45454545454545453)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ltDfMLktEeuPPeoLuVtUIw" type="Transition_Edge" source="_o07rkLksEeuPPeoLuVtUIw" target="_Q5eikLktEeuPPeoLuVtUIw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ltDfM7ktEeuPPeoLuVtUIw" type="Transition_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_nIh-sLktEeuPPeoLuVtUIw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ltDfNLktEeuPPeoLuVtUIw" x="1" y="19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ltDfNbktEeuPPeoLuVtUIw" type="Transition_GuardLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_nIrIoLktEeuPPeoLuVtUIw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ltDfNrktEeuPPeoLuVtUIw" x="-1" y="-18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ltDfN7ktEeuPPeoLuVtUIw" type="Transition_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_nI05oLktEeuPPeoLuVtUIw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ltDfOLktEeuPPeoLuVtUIw" x="1" y="59"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ltDfMbktEeuPPeoLuVtUIw"/>
+    <element xmi:type="uml:Transition" href="Project%20Statechart%20Diagram%20Finance_Management.uml#_lsuvELktEeuPPeoLuVtUIw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ltDfMrktEeuPPeoLuVtUIw" points="[380, 124, -643984, -643984]$[380, 140, -643984, -643984]$[460, 140, -643984, -643984]$[540, 140, -643984, -643984]$[540, 180, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ltfkELktEeuPPeoLuVtUIw" id="(0.8791208791208791,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ltfkEbktEeuPPeoLuVtUIw" id="(0.22099447513812154,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sNr6oLktEeuPPeoLuVtUIw" type="Transition_Edge" source="_Q5eikLktEeuPPeoLuVtUIw" target="_t0ZPMLksEeuPPeoLuVtUIw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sNr6o7ktEeuPPeoLuVtUIw" type="Transition_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sNr6pLktEeuPPeoLuVtUIw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sNr6pbktEeuPPeoLuVtUIw" type="Transition_GuardLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sNr6prktEeuPPeoLuVtUIw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sNshsLktEeuPPeoLuVtUIw" type="Transition_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sNshsbktEeuPPeoLuVtUIw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_sNr6obktEeuPPeoLuVtUIw"/>
+    <element xmi:type="uml:Transition" href="Project%20Statechart%20Diagram%20Finance_Management.uml#_sNUuQLktEeuPPeoLuVtUIw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sNr6orktEeuPPeoLuVtUIw" points="[620, 180, -643984, -643984]$[620, 124, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sOH_gLktEeuPPeoLuVtUIw" id="(0.6629834254143646,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sOH_gbktEeuPPeoLuVtUIw" id="(0.6593406593406593,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_tQSnILktEeuPPeoLuVtUIw" type="Transition_Edge" source="_t0ZPMLksEeuPPeoLuVtUIw" target="_Q5eikLktEeuPPeoLuVtUIw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_tQSnI7ktEeuPPeoLuVtUIw" type="Transition_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_tQSnJLktEeuPPeoLuVtUIw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_tQSnJbktEeuPPeoLuVtUIw" type="Transition_GuardLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_tQSnJrktEeuPPeoLuVtUIw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_tQSnJ7ktEeuPPeoLuVtUIw" type="Transition_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_tQSnKLktEeuPPeoLuVtUIw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_tQSnIbktEeuPPeoLuVtUIw"/>
+    <element xmi:type="uml:Transition" href="Project%20Statechart%20Diagram%20Finance_Management.uml#_tP7awLktEeuPPeoLuVtUIw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tQSnIrktEeuPPeoLuVtUIw" points="[580, 124, -643984, -643984]$[580, 180, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tQtd4LktEeuPPeoLuVtUIw" id="(0.43956043956043955,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tQtd4bktEeuPPeoLuVtUIw" id="(0.4419889502762431,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_uzhUcLktEeuPPeoLuVtUIw" type="Transition_Edge" source="_t0ZPMLksEeuPPeoLuVtUIw" target="_x-_nYLksEeuPPeoLuVtUIw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_uzh7gLktEeuPPeoLuVtUIw" type="Transition_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_uzh7gbktEeuPPeoLuVtUIw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_uzh7grktEeuPPeoLuVtUIw" type="Transition_GuardLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_uzh7g7ktEeuPPeoLuVtUIw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_uzh7hLktEeuPPeoLuVtUIw" type="Transition_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_uzh7hbktEeuPPeoLuVtUIw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_uzhUcbktEeuPPeoLuVtUIw"/>
+    <element xmi:type="uml:Transition" href="Project%20Statechart%20Diagram%20Finance_Management.uml#_uzHr0LktEeuPPeoLuVtUIw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uzhUcrktEeuPPeoLuVtUIw" points="[682, 100, -643984, -643984]$[760, 100, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_u0AcoLktEeuPPeoLuVtUIw" id="(1.0,0.45454545454545453)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_u0AcobktEeuPPeoLuVtUIw" id="(0.0,0.45454545454545453)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_vX6a8LktEeuPPeoLuVtUIw" type="Transition_Edge" source="_x-_nYLksEeuPPeoLuVtUIw" target="_zndaALksEeuPPeoLuVtUIw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_vX6a87ktEeuPPeoLuVtUIw" type="Transition_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_vX6a9LktEeuPPeoLuVtUIw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vX6a9bktEeuPPeoLuVtUIw" type="Transition_GuardLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_vX6a9rktEeuPPeoLuVtUIw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vX6a97ktEeuPPeoLuVtUIw" type="Transition_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_vX6a-LktEeuPPeoLuVtUIw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_vX6a8bktEeuPPeoLuVtUIw"/>
+    <element xmi:type="uml:Transition" href="Project%20Statechart%20Diagram%20Finance_Management.uml#_vXj1oLktEeuPPeoLuVtUIw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vX6a8rktEeuPPeoLuVtUIw" points="[800, 124, -643984, -643984]$[800, 180, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vYXG4LktEeuPPeoLuVtUIw" id="(0.38461538461538464,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vYXG4bktEeuPPeoLuVtUIw" id="(0.39215686274509803,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_v3ItkLktEeuPPeoLuVtUIw" type="Transition_Edge" source="_Q5eikLktEeuPPeoLuVtUIw" target="_zndaALksEeuPPeoLuVtUIw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_v3Itk7ktEeuPPeoLuVtUIw" type="Transition_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_v3ItlLktEeuPPeoLuVtUIw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_v3ItlbktEeuPPeoLuVtUIw" type="Transition_GuardLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_v3ItlrktEeuPPeoLuVtUIw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_v3Itl7ktEeuPPeoLuVtUIw" type="Transition_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_v3ItmLktEeuPPeoLuVtUIw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_v3ItkbktEeuPPeoLuVtUIw"/>
+    <element xmi:type="uml:Transition" href="Project%20Statechart%20Diagram%20Finance_Management.uml#_v20kgLktEeuPPeoLuVtUIw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v3ItkrktEeuPPeoLuVtUIw" points="[681, 200, -643984, -643984]$[780, 200, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v3kycLktEeuPPeoLuVtUIw" id="(1.0,0.45454545454545453)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v3kycbktEeuPPeoLuVtUIw" id="(0.0,0.45454545454545453)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_wcmLELktEeuPPeoLuVtUIw" type="Transition_Edge" source="_zndaALksEeuPPeoLuVtUIw" target="_bmjJQLktEeuPPeoLuVtUIw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_wcmLE7ktEeuPPeoLuVtUIw" type="Transition_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wcmLFLktEeuPPeoLuVtUIw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wcmLFbktEeuPPeoLuVtUIw" type="Transition_GuardLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wcmLFrktEeuPPeoLuVtUIw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wcmLF7ktEeuPPeoLuVtUIw" type="Transition_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wcmLGLktEeuPPeoLuVtUIw" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_wcmLEbktEeuPPeoLuVtUIw"/>
+    <element xmi:type="uml:Transition" href="Project%20Statechart%20Diagram%20Finance_Management.uml#_wcNwkLktEeuPPeoLuVtUIw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wcmLErktEeuPPeoLuVtUIw" points="[831, 200, -643984, -643984]$[921, 192, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wdEFILktEeuPPeoLuVtUIw" id="(1.0,0.45454545454545453)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wdEFIbktEeuPPeoLuVtUIw" id="(0.05,0.583717357910906)"/>
+  </edges>
+</notation:Diagram>

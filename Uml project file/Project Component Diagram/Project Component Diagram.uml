@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_kO6x8LpZEeumQP5ESJhM-A" name="Project Component Diagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_kaP4MLpZEeumQP5ESJhM-A">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Component" xmi:id="__J8N8LpZEeumQP5ESJhM-A" name="Manager">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_5zQVwLpcEeumQP5ESJhM-A" client="__J8N8LpZEeumQP5ESJhM-A" supplier="_ElIEQLpaEeumQP5ESJhM-A" contract="_ElIEQLpaEeumQP5ESJhM-A"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_6YvBYLpcEeumQP5ESJhM-A" client="__J8N8LpZEeumQP5ESJhM-A" supplier="_ERjoALpaEeumQP5ESJhM-A" contract="_ERjoALpaEeumQP5ESJhM-A"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_d9XXgLpdEeumQP5ESJhM-A" client="__J8N8LpZEeumQP5ESJhM-A" supplier="_IO9xYLpdEeumQP5ESJhM-A" contract="_IO9xYLpdEeumQP5ESJhM-A"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_o9MXkLpcEeumQP5ESJhM-A" client="__J8N8LpZEeumQP5ESJhM-A" supplier="_GDFQALpaEeumQP5ESJhM-A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_ERjoALpaEeumQP5ESJhM-A" name="Complain_Monitoring">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_07AfULpaEeumQP5ESJhM-A" name="View_Complain"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_2kRjMLpaEeumQP5ESJhM-A" name="Launch_Complain"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_363isLpaEeumQP5ESJhM-A" name="Save_record "/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_ElIEQLpaEeumQP5ESJhM-A" name="Finance_Monitoring">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_6c0iELpaEeumQP5ESJhM-A" name="Month_Expense"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_7tVuwLpaEeumQP5ESJhM-A" name="Month_Revenue"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_9QOd0LpaEeumQP5ESJhM-A" name="Month_Net_Income"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="__Oh9kLpaEeumQP5ESJhM-A" name="Save_Record"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_GDFQALpaEeumQP5ESJhM-A" name="Crew_Control">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_Cmno0LpdEeumQP5ESJhM-A" client="_GDFQALpaEeumQP5ESJhM-A" supplier="_HpPVgLpaEeumQP5ESJhM-A" contract="_HpPVgLpaEeumQP5ESJhM-A"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_C90A0LpdEeumQP5ESJhM-A" client="_GDFQALpaEeumQP5ESJhM-A" supplier="_MKBZELpaEeumQP5ESJhM-A" contract="_MKBZELpaEeumQP5ESJhM-A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_GW0rYLpaEeumQP5ESJhM-A" name="Reservation">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_UDFKkLpbEeumQP5ESJhM-A" name="Reserve_Table"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Vr0C8LpbEeumQP5ESJhM-A" name="Unreserve_Table"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_WrTxELpbEeumQP5ESJhM-A" name="View_Table"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_HpPVgLpaEeumQP5ESJhM-A" name="Order_Monitoring">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_EbWAsLpbEeumQP5ESJhM-A" name="Add/Remove/Modify Order"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Hjy_YLpbEeumQP5ESJhM-A" name="View_Order"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_MKBZELpaEeumQP5ESJhM-A" name="Stocks">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_JZ920LpbEeumQP5ESJhM-A" name="View_Stocks"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Kdo6ULpbEeumQP5ESJhM-A" name="Update_Stocks"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_MSWZMLpbEeumQP5ESJhM-A" name="Request_Stocks"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_IO9xYLpdEeumQP5ESJhM-A" name="Database">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_JsPAoLpdEeumQP5ESJhM-A" name="Update_DataBase"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_K2fNQLpdEeumQP5ESJhM-A" name="Send_Database"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_L-1VYLpdEeumQP5ESJhM-A" name="Receive_Database"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_N1ZY8LpeEeumQP5ESJhM-A" client="_GW0rYLpaEeumQP5ESJhM-A" supplier="__J8N8LpZEeumQP5ESJhM-A"/>
+</uml:Model>

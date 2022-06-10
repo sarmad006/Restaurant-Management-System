@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_jscHwLksEeuPPeoLuVtUIw" name="Project Statechart Diagram Finance_Management">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_jtQAELksEeuPPeoLuVtUIw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_jskDkLksEeuPPeoLuVtUIw" name="Finance_management">
+    <region xmi:type="uml:Region" xmi:id="_jslRsLksEeuPPeoLuVtUIw" name="Region1">
+      <transition xmi:type="uml:Transition" xmi:id="_hl1yMLktEeuPPeoLuVtUIw" source="_mHuecLksEeuPPeoLuVtUIw" target="_o05PULksEeuPPeoLuVtUIw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_i3Y5oLktEeuPPeoLuVtUIw" source="_o05PULksEeuPPeoLuVtUIw" target="_1env8LksEeuPPeoLuVtUIw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_jomUILktEeuPPeoLuVtUIw" source="_1env8LksEeuPPeoLuVtUIw" target="_o05PULksEeuPPeoLuVtUIw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_kVB8ULktEeuPPeoLuVtUIw" source="_o05PULksEeuPPeoLuVtUIw" target="_t0NB8LksEeuPPeoLuVtUIw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_lsuvELktEeuPPeoLuVtUIw" source="_o05PULksEeuPPeoLuVtUIw" target="_Q5Yb8LktEeuPPeoLuVtUIw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_sNUuQLktEeuPPeoLuVtUIw" source="_Q5Yb8LktEeuPPeoLuVtUIw" target="_t0NB8LksEeuPPeoLuVtUIw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_tP7awLktEeuPPeoLuVtUIw" source="_t0NB8LksEeuPPeoLuVtUIw" target="_Q5Yb8LktEeuPPeoLuVtUIw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_uzHr0LktEeuPPeoLuVtUIw" source="_t0NB8LksEeuPPeoLuVtUIw" target="_x-7V8LksEeuPPeoLuVtUIw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_vXj1oLktEeuPPeoLuVtUIw" source="_x-7V8LksEeuPPeoLuVtUIw" target="_znX6cLksEeuPPeoLuVtUIw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_v20kgLktEeuPPeoLuVtUIw" source="_Q5Yb8LktEeuPPeoLuVtUIw" target="_znX6cLksEeuPPeoLuVtUIw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_wcNwkLktEeuPPeoLuVtUIw" source="_znX6cLksEeuPPeoLuVtUIw" target="_bmbNcLktEeuPPeoLuVtUIw"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_mHuecLksEeuPPeoLuVtUIw" name="Initial1"/>
+      <subvertex xmi:type="uml:State" xmi:id="_o05PULksEeuPPeoLuVtUIw" name="Enter_user_name_and_password"/>
+      <subvertex xmi:type="uml:State" xmi:id="_t0NB8LksEeuPPeoLuVtUIw" name="Enter_Current_Monthly_Records"/>
+      <subvertex xmi:type="uml:State" xmi:id="_x-7V8LksEeuPPeoLuVtUIw" name="Update_DataBase"/>
+      <subvertex xmi:type="uml:State" xmi:id="_znX6cLksEeuPPeoLuVtUIw" name="Logout"/>
+      <subvertex xmi:type="uml:State" xmi:id="_1env8LksEeuPPeoLuVtUIw" name="not_valid_try_again"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Q5Yb8LktEeuPPeoLuVtUIw" name="View_Old_Monthly_Records"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_bmbNcLktEeuPPeoLuVtUIw" name="FinalState8"/>
+    </region>
+  </packagedElement>
+</uml:Model>

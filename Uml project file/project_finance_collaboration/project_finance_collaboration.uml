@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_JZx5ULfZEeudMIodE3DF5Q" name="project_finance_collaboration">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_JcAG4LfZEeudMIodE3DF5Q">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_Ja4skLfZEeudMIodE3DF5Q" name="FinanceMonitoring">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_S5df0LfZEeudMIodE3DF5Q" name="" type="_Ja4skLfZEeudMIodE3DF5Q"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_ROX3ALfZEeudMIodE3DF5Q" name="Manager" coveredBy="_YlpmkLfZEeudMIodE3DF5Q _bHcN4LfZEeudMIodE3DF5Q _dPk_ELfZEeudMIodE3DF5Q"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_Smh8wLfZEeudMIodE3DF5Q" name="System" coveredBy="_YlpmkbfZEeudMIodE3DF5Q _bHc08LfZEeudMIodE3DF5Q _dPlmILfZEeudMIodE3DF5Q"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_S5c4wLfZEeudMIodE3DF5Q" name="" represents="_S5df0LfZEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_YlpmkLfZEeudMIodE3DF5Q" name="Message5SendEvent" covered="_ROX3ALfZEeudMIodE3DF5Q" message="_Ylo_gLfZEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_YlpmkbfZEeudMIodE3DF5Q" name="Message5ReceiveEvent" covered="_Smh8wLfZEeudMIodE3DF5Q" message="_Ylo_gLfZEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bHcN4LfZEeudMIodE3DF5Q" name="Message8SendEvent" covered="_ROX3ALfZEeudMIodE3DF5Q" message="_bHa_wLfZEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bHc08LfZEeudMIodE3DF5Q" name="Message8ReceiveEvent" covered="_Smh8wLfZEeudMIodE3DF5Q" message="_bHa_wLfZEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dPk_ELfZEeudMIodE3DF5Q" name="Message11SendEvent" covered="_ROX3ALfZEeudMIodE3DF5Q" message="_dPjw8LfZEeudMIodE3DF5Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_dPlmILfZEeudMIodE3DF5Q" name="Message11ReceiveEvent" covered="_Smh8wLfZEeudMIodE3DF5Q" message="_dPjw8LfZEeudMIodE3DF5Q"/>
+    <message xmi:type="uml:Message" xmi:id="_Ylo_gLfZEeudMIodE3DF5Q" name="1:View_revenue_details()" messageSort="asynchCall" receiveEvent="_YlpmkbfZEeudMIodE3DF5Q" sendEvent="_YlpmkLfZEeudMIodE3DF5Q"/>
+    <message xmi:type="uml:Message" xmi:id="_bHa_wLfZEeudMIodE3DF5Q" name="2:View_monthly_expense()" messageSort="asynchCall" receiveEvent="_bHc08LfZEeudMIodE3DF5Q" sendEvent="_bHcN4LfZEeudMIodE3DF5Q"/>
+    <message xmi:type="uml:Message" xmi:id="_dPjw8LfZEeudMIodE3DF5Q" name="3:View_analysis()" messageSort="asynchCall" receiveEvent="_dPlmILfZEeudMIodE3DF5Q" sendEvent="_dPk_ELfZEeudMIodE3DF5Q"/>
+  </packagedElement>
+</uml:Model>
