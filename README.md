@@ -84,13 +84,13 @@ In our Restaurant Management System, we have provided a book table functionality
 
 ## Commands
 
-> cd FrontEnd
+> cd client
 
 > npm install
 
 > npm start
 
-> cd Backend
+> cd server
 
 > npm install 
 
@@ -98,4 +98,5 @@ In our Restaurant Management System, we have provided a book table functionality
 
 **Note :** Node Version should be >14.0.0 and config db.js file according to your computer
 
+#### Live Hosting :
 [RMS](https://rms-we.herokuapp.com/)
